@@ -206,6 +206,7 @@ const web = {
     compress: true,
     hot: false,
     host: '0.0.0.0',
+    port: 4001,  
     proxy: {
       '/api/ws': {
         target: 'ws://localhost:1338',

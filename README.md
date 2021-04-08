@@ -45,7 +45,23 @@ npm install
 npm start
 ```
 
-Then, browse to http://localhost:8080
+Then, browse to http://localhost:4001
+
+## Development - Docker
+
+Build the NodeJS docker image. You only need to run this once. You will need to rebuild this only if the Dockerfile changes.
+
+```
+docker build -t firefox-send .
+```
+
+Run the server: 
+
+```
+docker run -v $PWD:/app -p 4001:4001 --user=$UID firefox-send
+```
+
+Optionally add `-d` flag to run in the background.
 
 ---
 
