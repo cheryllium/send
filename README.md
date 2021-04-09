@@ -58,7 +58,7 @@ docker build -t firefox-send .
 Run the server: 
 
 ```
-docker run -v $PWD:/app -p 4001:4001 --user=$UID firefox-send
+docker run -v $PWD:/app -p 4001:4001 firefox-send
 ```
 
 Optionally add `-d` flag to run in the background.
