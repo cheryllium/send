@@ -6,6 +6,7 @@ dist
 .nyc_output
 .tox
 .pytest_cache
+.docker.env.dev
 *.iml
 android/app/src/main/assets
 ios/send-ios/assets/ios.js
