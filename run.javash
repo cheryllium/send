@@ -1,0 +1,173 @@
+#!/usr/bin/env sh
+/* 2>/dev/null
+DOCKER_IMAGE=openjdk:11
+DOCKER_CMD="/bin/bash -c 'javac "
+
+pwd=$(cd "$(dirname "$0")" && pwd);s="$pwd/$(basename "$0")";docker run --rm -a stdin -a stdout -a stderr -i$([ -t 0 ] && echo t) --init -v "$s":"$s":ro -v /var/run/docker.sock:/var/run/docker.sock ${DOCKER_EXTRA_ARGS} ${DOCKER_IMAGE} java --source 6 "$s" "$pwd";exit $?
+
+This self-contained script runner for Docker via:
+https://github.com/hugojosefson/docker-shebang
+*/
+import java.util.List;
+import java.util.LinkedList;
+import java.io.IOException;
+
+public class Main {
+    private static final String DOCKER_IMAGE_NAME = "firefox-send";
+
+    protected static String currentWorkingDirectory;
+
+    public static void main(String[] args) {
+        System.out.println(
+            "############################\n" + 
+            "# Extensible Docker System #\n" + 
+            "############################");
+            
+        if (args.length == 0) {
+            System.err.println("You must pass the current working directory as the first argument");
+            System.exit(1);
+        }
+        currentWorkingDirectory = args[0];
+        runBuildCommand();
+        runDockerRunCommand();
+    }
+
+    private static void runBuildCommand() {
+        DockerCommandBuilder dockerCommandBuilder = new DockerCommandBuilder();
+        dockerCommandBuilder.setBaseCommandForDocker(DockerCommand.DEFAULT_BASE_COMMAND_FOR_DOCKER);
+        dockerCommandBuilder.setDockerSubcommand(DockerCommand.DOCKER_BUILD_SUBCOMMAND);
+        String[] parameters = {"-f", "Dockerfile.dev", "-t", DOCKER_IMAGE_NAME, "."};
+        dockerCommandBuilder.setDockerParameters(parameters);
+        DockerCommand dockerCommand = dockerCommandBuilder.build();
+
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command(dockerCommand.getCommand());
+        try
+        {
+            processBuilder.start();
+        }
+        catch (IOException e)
+        {
+            System.err.println("Failed when running docker run command");
+        }
+    }
+
+    private static void runDockerRunCommand() {
+        DockerCommandBuilder dockerCommandBuilder = new DockerCommandBuilder();
+        dockerCommandBuilder.setBaseCommandForDocker(DockerCommand.DEFAULT_BASE_COMMAND_FOR_DOCKER);
+        dockerCommandBuilder.setDockerSubcommand(DockerCommand.DOCKER_RUN_SUBCOMMAND);
+        String volumeMountParameter = getVolumeMountParameter();
+        String[] parameters = {"-i", "-t", "--env-file", ".docker.env.dev",
+                               "-v", volumeMountParameter,
+                               "-p", "4001:4001",
+                               DOCKER_IMAGE_NAME};
+
+        dockerCommandBuilder.setDockerParameters(parameters);
+        DockerCommand dockerCommand = dockerCommandBuilder.build();
+
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command(dockerCommand.getCommand());
+        try
+        {
+            processBuilder.start();
+        }
+        catch (IOException e)
+        {
+            System.err.println("Failed when running docker run command");
+        }
+    }
+
+    private static String getVolumeMountParameter() {
+        StringBuffer stringBuilder = new StringBuffer();
+        stringBuilder.append(currentWorkingDirectory);
+        stringBuilder.append("/");
+        stringBuilder.append("/app");
+        return stringBuilder.toString();
+    }
+}
+class DockerCommandBuilder {
+    String baseCommandForDocker;
+    String dockerSubCommand;
+    String[] dockerParameters;
+
+    public DockerCommandBuilder setBaseCommandForDocker
+        (String newBaseCommandForDocker)
+    {
+        this.baseCommandForDocker = newBaseCommandForDocker;
+        return this;
+    }
+
+    public DockerCommandBuilder setDockerSubcommand
+        (String newDockerSubCommand)
+    {
+        this.dockerSubCommand = newDockerSubCommand;
+        return this;
+    }
+
+    public DockerCommandBuilder setDockerParameters
+        (String[] newDockerParameters)
+    {
+        this.dockerParameters = newDockerParameters;
+        return this;
+    }
+
+    public DockerCommand build()
+    {
+        if (null == baseCommandForDocker)
+        {
+            throw new DockerCommandException("Base command was null!");
+        }
+        if (null == dockerSubCommand)
+        {
+            throw new DockerCommandException("Docker sub command was null!");
+        }
+        if (null == dockerParameters)
+        {
+            throw new DockerCommandException("Docker parameters were null!");
+        }
+        return null;
+    }
+}
+class DockerCommand {
+    static final String DEFAULT_BASE_COMMAND_FOR_DOCKER = "docker";
+    static final String DOCKER_BUILD_SUBCOMMAND = "build";
+    static final String DOCKER_RUN_SUBCOMMAND = "run";
+
+    String baseCommandForDocker;
+    String dockerSubCommand;
+    String[] dockerParameters;
+
+    DockerCommand(String baseCommandForDocker, String dockerSubCommand, String [] dockerParameters)
+    {
+        this.baseCommandForDocker = baseCommandForDocker;
+        this.dockerSubCommand = dockerSubCommand;
+        this.dockerParameters = dockerParameters;
+    }
+
+    public List getCommand()
+    {
+        List command = new LinkedList();
+        command.add(0, this.baseCommandForDocker);
+        command.add(1, this.dockerSubCommand);
+        for (int i = 0; i < this.dockerParameters.length; ++i)
+        {
+            command.add(i + 2, this.dockerParameters[i]);
+        }
+        return command;
+    }
+    
+}
+class DockerCommandException extends IllegalArgumentException {
+    public DockerCommandException() 
+    {
+        super();
+    }
+    public DockerCommandException(String message) 
+    {
+        super(message);
+    }
+    public DockerCommandException(String message, Throwable cause) 
+    {
+        super(message, cause);
+    }
+}
