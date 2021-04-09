@@ -60,7 +60,7 @@ docker build -f Dockerfile.dev -t firefox-send .
 Run the server:
 
 ```
-docker run --env-file .docker.env.dev -v $PWD:/app -p 4001:4001 firefox-send
+docker run -it --env-file .docker.env.dev -v $PWD:/app -p 4001:4001 firefox-send
 ```
 
 Optionally add `-d` flag to run in the background.
