@@ -49,6 +49,15 @@ Then, browse to http://localhost:4001
 
 ## Development - Docker
 
+### The Easy Way
+
+Run:
+```
+./run-dev.sh
+```
+
+### The Hard Way
+
 Create a `.docker.env.dev` file containing the environment variables that you'd like to configure for running the app. You can see the `.docker.env.example` file for all the available environment variables, or server/config.js for defaults and descriptions.
 
 Build the NodeJS docker image. You only need to run this once. You will need to rebuild this only if `Dockerfile.dev` changes.
