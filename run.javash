@@ -3,7 +3,7 @@
 DOCKER_IMAGE=openjdk:11
 DOCKER_CMD="/bin/bash -c 'javac "
 
-pwd=$(cd "$(dirname "$0")" && pwd);s="$pwd/$(basename "$0")";docker run --rm -a stdin -a stdout -a stderr -i$([ -t 0 ] && echo t) --init -v "$s":"$s":ro -v /var/run/docker.sock:/var/run/docker.sock ${DOCKER_EXTRA_ARGS} ${DOCKER_IMAGE} /bin/bash -c "java --source 6 \"$s\" \"$pwd\"; bash";exit $?
+pwd=$(cd "$(dirname "$0")" && pwd);s="$pwd/$(basename "$0")";docker run --rm -a stdin -a stdout -a stderr -i$([ -t 0 ] && echo t) --init -v "$pwd:$pwd:ro" -v /var/run/docker.sock:/var/run/docker.sock ${DOCKER_EXTRA_ARGS} ${DOCKER_IMAGE} /bin/bash -c "java --source 6 \"$s\" \"$pwd\"; bash";exit $?
 
 This self-contained script runner for Docker via:
 https://github.com/hugojosefson/docker-shebang
@@ -44,7 +44,7 @@ public class Main {
         DockerCommandBuilder dockerCommandBuilder = new DockerCommandBuilder();
         dockerCommandBuilder.setBaseCommandForDocker(DockerCommand.DEFAULT_BASE_COMMAND_FOR_DOCKER);
         dockerCommandBuilder.setDockerSubcommand(DockerCommand.DOCKER_BUILD_SUBCOMMAND);
-        String[] parameters = {"-f", "Dockerfile.dev", "-t", DOCKER_IMAGE_NAME, "."};
+        String[] parameters = {"-f", currentWorkingDirectory + "/Dockerfile.dev", "-t", DOCKER_IMAGE_NAME, "."};
         dockerCommandBuilder.setDockerParameters(parameters);
         DockerCommand dockerCommand = dockerCommandBuilder.build();
 
@@ -102,6 +102,7 @@ public class Main {
     private static String getVolumeMountParameter() {
         StringBuffer stringBuilder = new StringBuffer();
         stringBuilder.append(currentWorkingDirectory);
+        stringBuilder.append(":");
         stringBuilder.append("/");
         stringBuilder.append("/app");
         return stringBuilder.toString();
