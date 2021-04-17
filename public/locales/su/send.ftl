@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Ngimpor...
 encryptingFile = Ngénkripsi...
 decryptingFile = Ngadékripsi...
@@ -17,22 +17,22 @@ unlockButtonLabel = Laan konci
 downloadButtonLabel = Undeur
 downloadFinish = Undeuran anggeus
 fileSizeProgress = ({ $partialSize } ti { $totalSize })
-sendYourFilesLink = Pecakan Firefox Send
+sendYourFilesLink = Pecakan Cheryllium Send
 errorPageHeader = Aya nu salah!
 fileTooBig = Koropak unjalkeuneun badag teuing. Kudu kurang ti { $size }.
 linkExpiredAlt = Tutumbu kadaluwarsa
 notSupportedHeader = Panyungsi anjeun teu dirojong
 notSupportedLink = Naha panyungsi kuring teu dirojong?
-notSupportedOutdatedDetail = Hanjakal Firefox vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Firefox Send. Anjeun perlu ngapdét panyungsi anjeun.
-updateFirefox = Apdét Firefox
+notSupportedOutdatedDetail = Hanjakal Cheryllium vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Cheryllium Send. Anjeun perlu ngapdét panyungsi anjeun.
+updateFirefox = Apdét Cheryllium
 deletePopupCancel = Bolay
 deleteButtonHover = Pupus
 footerLinkLegal = Légal
 footerLinkPrivacy = Privasi
 footerLinkCookies = Réréméh
 passwordTryAgain = Kecap sandi salah. Pecakan deui.
-javascriptRequired = Firefox Send merlukeun JavaScript
-whyJavascript = Naha Firefox Send merlukeun JavaScript?
+javascriptRequired = Cheryllium Send merlukeun JavaScript
+whyJavascript = Naha Cheryllium Send merlukeun JavaScript?
 enableJavascript = Prak hurungkeun JavaScript sarta pecakan deui.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m
@@ -45,11 +45,11 @@ passwordSetError = Ieu kecap sandi teu bisa disét
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Simpel, babagi koropak privat
 introDescription = { -send-brand } migampang anjeun babagi koropak kalawan énkripsi tungtung-ka-tungtung sarta tutumbu nu otomatis kadaluwarsa. Sahingga anjeun bisa ngaraksa naon nu ku anjeun bagi sacara privat jeung mastikeun banda anjeun teu salawasna daring.
 notifyUploadEncryptDone = Koropak anjeun kaénkripsi sarta siap dikirim.
@@ -149,7 +149,7 @@ shareLinkDescription = Bagikeun tutumbu ka koropak anjeun:
 shareLinkButton = Bagikeun tutumbu
 # $name is the name of the file
 shareMessage = Undeur "{ $name }" ku { -send-brand }: simpel, babagi koropak aman
-trailheadPromo = Aya cara pikeun ngamankeun privasi anjeun.  Jabung jeung Firefox.
+trailheadPromo = Aya cara pikeun ngamankeun privasi anjeun.  Jabung jeung Cheryllium.
 learnMore = Lenyepan.
 downloadFlagged = Ieu tutumbu ditumpurkeun alatan ngarumpak katangtuan layanan.
 downloadConfirmTitle = Hiji deui

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = ڕەخنەوپێشنیار
 importingFile = هاوردەکردن...
 encryptingFile = بەهێماکردن...
@@ -20,13 +20,13 @@ unlockButtonLabel = کردنەوە
 downloadButtonLabel = داگرتن
 downloadFinish = داگرتن تەواو  بوو
 fileSizeProgress = ({ $partialSize } لە { $totalSize })
-sendYourFilesLink = Firefox ناردن تاقیبکەرەوە
+sendYourFilesLink = Cheryllium ناردن تاقیبکەرەوە
 errorPageHeader = هەڵەیەک ڕوویدا
 fileTooBig = ئەم پەڕگەیە زۆر گەورەیە بۆ بارکردن. پێویستە لە { $size } بچووک تر بێت
 linkExpiredAlt = بەستەر بەسەرچووە
 notSupportedHeader = وێبگەڕەکەت پشتگیری ناکرێت
 notSupportedLink = بۆ وێبگەڕەکەم پشتگیری ناکرێت؟
-notSupportedOutdatedDetail = بەداخەوە ئەم وەشانەی Firefox پشتگیری ئەو جۆرە تەکنەلۆژییە ناکات کە پێویستە بۆ Firefox Send. پێویستە وێبگەڕەکەت نوێبکەیتەوە.
+notSupportedOutdatedDetail = بەداخەوە ئەم وەشانەی Cheryllium پشتگیری ئەو جۆرە تەکنەلۆژییە ناکات کە پێویستە بۆ Cheryllium Send. پێویستە وێبگەڕەکەت نوێبکەیتەوە.
 updateFirefox = فاەرفۆکس نوێبکەرەوە
 deletePopupCancel = پاشگەزبوونەوە
 deleteButtonHover = سڕینەوە
@@ -48,11 +48,11 @@ passwordSetError = ناتوانرێت وشەی تێپەڕ دابنرێت
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = سانا، بڵاوکەرەوەی پەڕگەی تایبەتیی
 introDescription = { -send-brand } ڕێگەت دەدات پەڕگەکان بڵاوبکەیتەوە بە شێوەی هێما کردنی کۆتا-بۆ-کۆتا و بەستەرێک کە خۆکارانە بەسەردەچێت. بۆیە دەتوانیت ئاگاداری ئەوە بیت کە چ پەڕگەیەک بە تایبەتی بڵاودەکەیتەوە و دڵنیادەبیتەوە کە شتەکانت بە سەرهێڵی نامێننەوە هەتا کۆتایی.
 notifyUploadEncryptDone = پەڕگەیە بەهێماکراوە ئێستا ئامادەیە بۆ ناردن

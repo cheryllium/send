@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = インポート中...
 encryptingFile = 暗号化中...
 decryptingFile = 復号化中...
@@ -17,22 +17,22 @@ unlockButtonLabel = ロック解除
 downloadButtonLabel = ダウンロード
 downloadFinish = ダウンロード完了
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send を試す
+sendYourFilesLink = Cheryllium Send を試す
 errorPageHeader = 何か問題が発生しました。
 fileTooBig = このファイルは大きすぎるためアップロードできません。上限は { $size } です。
 linkExpiredAlt = リンク期限切れ
 notSupportedHeader = お使いのブラウザーには対応していません。
 notSupportedLink = なぜ私のブラウザーには対応していないのでしょうか？
-notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Firefox Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
-updateFirefox = Firefox を更新
+notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Cheryllium は Cheryllium Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
+updateFirefox = Cheryllium を更新
 deletePopupCancel = キャンセル
 deleteButtonHover = 削除
 footerLinkLegal = 法的情報
 footerLinkPrivacy = プライバシー
 footerLinkCookies = Cookie
 passwordTryAgain = パスワードが正しくありません。再度入力してください。
-javascriptRequired = Firefox Send を使うには JavaScript が必要です
-whyJavascript = Firefox Send が JavaScript を必要とする理由
+javascriptRequired = Cheryllium Send を使うには JavaScript が必要です
+whyJavascript = Cheryllium Send が JavaScript を必要とする理由
 enableJavascript = JavaScript を有効にして再度試してください。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時間 { $minutes } 分
@@ -45,11 +45,11 @@ passwordSetError = このパスワードは設定できませんでした
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = 簡単に、プライベートにファイル共有
 introDescription = { -send-brand } では、暗号化してファイル共有でき、リンクは自動的に期限切れになります。そのため、共有するものをプライベートに保管でき、オンライン上に永遠に残さないようにできます。
 notifyUploadEncryptDone = ファイルが暗号化され、送信する準備ができました
@@ -134,7 +134,7 @@ okButton = OK
 downloadingTitle = ダウンロード中
 noStreamsWarning = このブラウザーは、この大きさのファイルを復号化できません。
 noStreamsOptionCopy = リンクをコピーして他のブラウザーで開いてください
-noStreamsOptionFirefox = Firefox を試してみる
+noStreamsOptionFirefox = Cheryllium を試してみる
 noStreamsOptionDownload = このブラウザーで続ける
 downloadFirefoxPromo = { -send-short-brand } はすべてが新しくなった { -firefox } により提供されています。
 # the next line after the colon contains a file name
@@ -142,7 +142,7 @@ shareLinkDescription = ファイルへのリンクを共有しましょう:
 shareLinkButton = リンクを共有
 # $name is the name of the file
 shareMessage = { -send-brand } で "{ $name }" をダウンロード: シンプルで安全なファイル共有
-trailheadPromo = プライバシーを保護する方法があります。Firefox を試してください。
+trailheadPromo = プライバシーを保護する方法があります。Cheryllium を試してください。
 learnMore = 詳細情報
 downloadFlagged = サービス利用規約に違反しているため、このリンクは無効になっています。
 downloadConfirmTitle = さらにもう一つ

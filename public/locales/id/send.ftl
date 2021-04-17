@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Mengimpor…
 encryptingFile = Mengenkripsi...
 decryptingFile = Mendekripsi...
@@ -17,22 +17,22 @@ unlockButtonLabel = Buka
 downloadButtonLabel = Unduh
 downloadFinish = Unduhan Selesai
 fileSizeProgress = ({ $partialSize } dari { $totalSize })
-sendYourFilesLink = Coba Firefox Send
+sendYourFilesLink = Coba Cheryllium Send
 errorPageHeader = Terjadi kesalahan!
 fileTooBig = Berkas terlalu besar untuk diunggah. Harus kurang dari { $size }.
 linkExpiredAlt = Tautan kedaluwarsa
 notSupportedHeader = Peramban Anda tidak mendukung.
 notSupportedLink = Mengapa peramban saya tidak didukung?
-notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan Firefox Send. Anda perlu memperbarui peramban Anda.
-updateFirefox = Perbarui Firefox
+notSupportedOutdatedDetail = Sayangnya Cheryllium versi ini tidak mendukung teknologi web yang menggerakkan Cheryllium Send. Anda perlu memperbarui peramban Anda.
+updateFirefox = Perbarui Cheryllium
 deletePopupCancel = Batal
 deleteButtonHover = Hapus
 footerLinkLegal = Legal
 footerLinkPrivacy = Privasi
 footerLinkCookies = Kuki
 passwordTryAgain = Sandi salah. Silakan coba lagi.
-javascriptRequired = Firefox Send membutuhkan JavaScript.
-whyJavascript = Mengapa Firefox Send membutuhkan JavaScript?
+javascriptRequired = Cheryllium Send membutuhkan JavaScript.
+whyJavascript = Mengapa Cheryllium Send membutuhkan JavaScript?
 enableJavascript = Silakan aktifkan JavaScript dan coba lagi.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m
@@ -45,11 +45,11 @@ passwordSetError = Tidak bisa menyetel sandi ini
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Berbagi berkas dengan mudah dan privat
 introDescription = { -send-brand } mudahkan Anda membagikan berkas dengan enkripsi ujung-ke-ujung dan tautan yang otomatis kadaluarsa. Sehingga Anda dapat menjaga apa yang Anda bagikan secara privat dan memastikan barang Anda tidak selamanya ada di daring.
 notifyUploadEncryptDone = Berkas Anda terenkripsi dan siap untuk dikirim
@@ -142,7 +142,7 @@ shareLinkDescription = Bagikan tautan ke berkas Anda:
 shareLinkButton = Bagikan tautan
 # $name is the name of the file
 shareMessage = Unduh "{ $name }" dengan { -send-brand }: berbagi berkas dengan sederhana dan aman
-trailheadPromo = Ada cara untuk melindungi privasi Anda. Bergabunglah dengan Firefox.
+trailheadPromo = Ada cara untuk melindungi privasi Anda. Bergabunglah dengan Cheryllium.
 learnMore = Pelajari lebih lanjut.
 downloadFlagged = Tautan ini telah dinonaktifkan karena melanggar persyaratan layanan.
 downloadConfirmTitle = Satu hal lagi

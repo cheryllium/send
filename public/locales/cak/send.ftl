@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = Rutzijol
 importingFile = Tajin nijik…
 encryptingFile = Tajin newäx rusik'ixik…
@@ -20,22 +20,22 @@ unlockButtonLabel = Titzij chik
 downloadButtonLabel = Tiqasäx
 downloadFinish = Xtz'aqät qasanïk
 fileSizeProgress = ({ $partialSize } richin { $totalSize })
-sendYourFilesLink = Titojtob'ëx Firefox Send
+sendYourFilesLink = Titojtob'ëx Cheryllium Send
 errorPageHeader = ¡K'o ri man ütz ta xub'än!
 fileTooBig = Yalan nïm re yakb'äl re' richin nijotob'äx. K'o ta chi man nik'o ta chi re ri { $size }.
 linkExpiredAlt = Xk'is ruq'ijul ri ximonel
 notSupportedHeader = Man koch'el ta ri awokik'amaya'l.
 notSupportedLink = ¿Achike ruma man nikoch' taq ri wokik'amaya'l?
-notSupportedOutdatedDetail = K'ayew ruma re ruwäch Firefox re' man nuköch' ta ri ajk'amaya'l na'ob'äl nrajo' ri Firefox Send. Rajowaxik nak'ëx ri awokik'amaya'l.
-updateFirefox = Tik'ex ri Firefox
+notSupportedOutdatedDetail = K'ayew ruma re ruwäch Cheryllium re' man nuköch' ta ri ajk'amaya'l na'ob'äl nrajo' ri Cheryllium Send. Rajowaxik nak'ëx ri awokik'amaya'l.
+updateFirefox = Tik'ex ri Cheryllium
 deletePopupCancel = Tiq'at
 deleteButtonHover = Tiyuj
 footerLinkLegal = Taqanel tzijol
 footerLinkPrivacy = Ichinanem
 footerLinkCookies = Taq kaxlanwey
 passwordTryAgain = Itzel ri ewan tzij. Tatojtob'ej chik.
-javascriptRequired = K'atzinel JavaScript chi re ri Firefox Send
-whyJavascript = ¿Achike ruma toq ri Firefox Send nrajo' JavaScript?
+javascriptRequired = K'atzinel JavaScript chi re ri Cheryllium Send
+whyJavascript = ¿Achike ruma toq ri Cheryllium Send nrajo' JavaScript?
 enableJavascript = Titz'ij JavaScript richin nitojtob'ëx chik.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }r { $minutes }ch
@@ -48,11 +48,11 @@ passwordSetError = Man tikirel ta ninuk' re ewan tzij re'
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Titaq
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Kijunamaxik relik chuqa' ichinan yakb'äl
 introDescription = { -send-brand } nuya' q'ij chawe ye'akomonij taq yakb'äl ri ewan kisik'ixik chijun chuqa' jun ximonel ri nik'is ruq'ijul pa ruyonil. Ke ri' nawichinaj ronojel ri nakomonij chuqa' yajike' chi ronojel ri  taq awachinaq man jumul ta kek'oje' pa k'amab'ey.
 notifyUploadEncryptDone = Ewan chik rusik'ixik ri ayakb'al chuqa' ütz chik richin nitaq
@@ -151,5 +151,5 @@ shareLinkDescription = Nakomonij ri ximonel rik'in ri awokisab'al:
 shareLinkButton = Tikomonïx ximonel
 # $name is the name of the file
 shareMessage = Tiqasäx "{ $name }" rik'in { -send-brand }: man k'ayew ta chuqa' ütz kikomonik ri yakb'äl
-trailheadPromo = K'o jun rub'anikil richin nachajij ri awichinanem. Tatunu' awi' rik'in ri Firefox.
+trailheadPromo = K'o jun rub'anikil richin nachajij ri awichinanem. Tatunu' awi' rik'in ri Cheryllium.
 learnMore = Tetamäx ch'aqa' chik.

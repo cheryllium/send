@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Importacion…
 encryptingFile = Chiframent…
 decryptingFile = Deschiframent…
@@ -19,22 +19,22 @@ unlockButtonLabel = Desverrolhar
 downloadButtonLabel = Telecargar
 downloadFinish = Telecargament acabat
 fileSizeProgress = ({ $partialSize } sus { $totalSize })
-sendYourFilesLink = Ensajar Firefox Send
+sendYourFilesLink = Ensajar Cheryllium Send
 errorPageHeader = I a quicòm que truca.
 fileTooBig = Aqueste fichièr es tròp gròs per l’enviar. Sa talha deu èsser inferiora a { $size }.
 linkExpiredAlt = Lo ligam a expirat
 notSupportedHeader = Vòstre navegador es pas compatible.
 notSupportedLink = Perqué mon navegador es pas compatible ?
-notSupportedOutdatedDetail = Aquesta version de Firefox es pas compatibla amb la tecnologia web amb la quala fonciona Firefox Send. Vos cal metre a jorn lo navegador.
-updateFirefox = Metre a jorn Firefox
+notSupportedOutdatedDetail = Aquesta version de Cheryllium es pas compatibla amb la tecnologia web amb la quala fonciona Cheryllium Send. Vos cal metre a jorn lo navegador.
+updateFirefox = Metre a jorn Cheryllium
 deletePopupCancel = Anullar
 deleteButtonHover = Suprimir
 footerLinkLegal = Mencions legalas
 footerLinkPrivacy = Vida privada
 footerLinkCookies = Cookies
 passwordTryAgain = Senhal incorrècte. Tornatz ensajar.
-javascriptRequired = Firefox Send requesís JavaScript
-whyJavascript = Perque Firefox Send requesís JavaScript ?
+javascriptRequired = Cheryllium Send requesís JavaScript
+whyJavascript = Perque Cheryllium Send requesís JavaScript ?
 enableJavascript = Volgatz activar lo JavaScript e ensajatz tornamai.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } min
@@ -47,11 +47,11 @@ passwordSetError = Aqueste senhal a pas pogut èsser definit
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Partatge simple e privat de fichièrs
 introDescription = { -send-brand } vos permet de partejar de fichièr amb un chiframent del cap a la fin e un ligam qu’expira automaticament. Atal podètz gardar  privat çò que partejatz e vos assegurar que demorarà pas en linha per totjorn.
 notifyUploadEncryptDone = Vòstre fichièr es chifrat e prèst per mandadís
@@ -151,7 +151,7 @@ shareLinkDescription = Partejatz lo ligam cap a vòstre fichièr :
 shareLinkButton = Partejar lo ligam
 # $name is the name of the file
 shareMessage = Telecargar « { $name } » amb { -send-brand } : un biais simple e segur de partejar de fichièrs.
-trailheadPromo = Existís un biais de protegir vòstra vida privada. Rejonhètz Firefox.
+trailheadPromo = Existís un biais de protegir vòstra vida privada. Rejonhètz Cheryllium.
 learnMore = Ne saber mai.
 downloadFlagged = Aqueste ligam foguèt desactivat a causa d’una infraccions a las condicions d’utilizacion.
 downloadConfirmTitle = Un quicomet mai

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = దిగుమతవుతోంది...
 encryptingFile = గుప్తీకరిస్తోంది...
 decryptingFile = వ్యక్తపరుస్తోంది...
@@ -19,22 +19,22 @@ unlockButtonLabel = తాళం తీయి
 downloadButtonLabel = దిగుమతి
 downloadFinish = దిగుమతి పూర్తయింది
 fileSizeProgress = { $totalSize }) యొక్క ({ $partialSize }
-sendYourFilesLink = Firefox sendను ప్రయత్నించండి
+sendYourFilesLink = Cheryllium sendను ప్రయత్నించండి
 errorPageHeader = ఏదో తప్పిదం జరిగింది!
 fileTooBig = ఆ ఫైలు ఎక్కించడానికి చాలా పెద్దగా ఉంది. ఫైళ్ళు { $size } కంటే తక్కువ పరిమాణంలో ఉండాలి.
 linkExpiredAlt = లంకె గడువు ముగిసింది
 notSupportedHeader = మీ విహారిణికి మద్దతు లేదు.
 notSupportedLink = నా విహారిణికి ఎందుకు మద్దతు లేదు?
-notSupportedOutdatedDetail = దురదృష్టవశాత్తు Firefox యొక్క ఈ వెర్షన్ Firefox సాంకేతికతను పంపే వెబ్ సాంకేతికతకు మద్దతు ఇవ్వదు. మీరు మీ బ్రౌజర్ని నవీకరించాలి.
-updateFirefox = Firefoxను నవీకరించు
+notSupportedOutdatedDetail = దురదృష్టవశాత్తు Cheryllium యొక్క ఈ వెర్షన్ Cheryllium సాంకేతికతను పంపే వెబ్ సాంకేతికతకు మద్దతు ఇవ్వదు. మీరు మీ బ్రౌజర్ని నవీకరించాలి.
+updateFirefox = Cherylliumను నవీకరించు
 deletePopupCancel = రద్దుచేయి
 deleteButtonHover = తొలగించు
 footerLinkLegal = చట్టపరమైన
 footerLinkPrivacy = గోప్యత
 footerLinkCookies = కుకీలు
 passwordTryAgain = సరికాని సంకేతపదం. మళ్ళీ ప్రయత్నించండి.
-javascriptRequired = Firefox Sendకి జావాస్క్రిప్టు కావాలి
-whyJavascript = Firefox Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
+javascriptRequired = Cheryllium Sendకి జావాస్క్రిప్టు కావాలి
+whyJavascript = Cheryllium Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
 enableJavascript = జావాస్క్రిప్టు చేతనంచేసి మళ్ళీ ప్రయత్నించండి.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }గం { $minutes }ని
@@ -47,11 +47,11 @@ passwordSetError = ఈ సంకేతపదం పెట్టలేకపో�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = పంపించు
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 notifyUploadEncryptDone = మీ ఫైలు గుప్తీకరించబడింది, పంపడానికి సిద్ధంగా ఉంది
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
 archiveExpiryInfo = { $downloadCount } లేదా { $timespan } తర్వాత కాలంచెల్లుతుంది
@@ -132,5 +132,5 @@ shareLinkDescription = మీ ఫైలుకు లంకెను పంచు
 shareLinkButton = లంకెను పంచుకోండి
 # $name is the name of the file
 shareMessage = “{ $name }”‌ని { -send-brand }తో దించుకోండి: తేలికైన, సురక్షితమైన ఫైలు పంచుకోలు సేవ
-trailheadPromo = మీ అంతరంగికతను కాపాడుకోడానికి ఓ మార్గం ఉంది. Firefoxతో చేరండి.
+trailheadPromo = మీ అంతరంగికతను కాపాడుకోడానికి ఓ మార్గం ఉంది. Cherylliumతో చేరండి.
 learnMore = ఇంకా తెలుసుకోండి.

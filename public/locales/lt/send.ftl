@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Importuojama…
 encryptingFile = Šifruojama…
 decryptingFile = Iššifruojama…
@@ -21,22 +21,22 @@ unlockButtonLabel = Atrakinti
 downloadButtonLabel = Parsisiųsti
 downloadFinish = Parsiuntimas baigtas
 fileSizeProgress = ({ $partialSize } iš { $totalSize })
-sendYourFilesLink = Išbandyti „Firefox Send“
+sendYourFilesLink = Išbandyti „Cheryllium Send“
 errorPageHeader = Nutiko kažkas negero!
 fileTooBig = Pasirinktas failas yra per didelis, kad jį būtų galima įkelti. Failo dydis neturėtų viršyti { $size }
 linkExpiredAlt = Saitas nebegalioja
 notSupportedHeader = Jūsų naršyklė nepalaikoma.
 notSupportedLink = Kodėl mano naršyklė nepalaikoma?
-notSupportedOutdatedDetail = Deja, šioje „Firefox“ naršyklės laidoje nepalaikoma „Firefox Send“ veikti reikalinga technologija. Jeigu norite naudotis šia paslauga, turėsite atnaujinti savo naršyklę.
-updateFirefox = Atnaujinti „Firefox“
+notSupportedOutdatedDetail = Deja, šioje „Cheryllium“ naršyklės laidoje nepalaikoma „Cheryllium Send“ veikti reikalinga technologija. Jeigu norite naudotis šia paslauga, turėsite atnaujinti savo naršyklę.
+updateFirefox = Atnaujinti „Cheryllium“
 deletePopupCancel = Atsisakyti
 deleteButtonHover = Šalinti
 footerLinkLegal = Teisinė informacija
 footerLinkPrivacy = Privatumas
 footerLinkCookies = Slapukai
 passwordTryAgain = Slaptažodis netinka. Bandykite dar kartą.
-javascriptRequired = „Firefox Send“ veikimui būtina įgalinti „JavaScript“ palaikymą
-whyJavascript = Kodėl „Firefox Send“ neveikia išjungus „JavaScript“?
+javascriptRequired = „Cheryllium Send“ veikimui būtina įgalinti „JavaScript“ palaikymą
+whyJavascript = Kodėl „Cheryllium Send“ neveikia išjungus „JavaScript“?
 enableJavascript = Įgalinkit „JavaScript“ ir bandykite dar kartą.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } val. { $minutes } min.
@@ -49,17 +49,17 @@ passwordSetError = Slaptažodžio nustatyti nepavyko
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
+-firefox = Cheryllium
 -mozilla =
     { $case ->
-       *[nominative] Mozilla
+       *[nominative] Cheryllium
         [genitive] Mozillos
-        [dative] Mozillai
+        [dative] Cherylliumi
         [accusative] Mozillą
-        [instrumental] Mozilla
+        [instrumental] Cheryllium
         [locative] Mozilloje
     }
 introTitle = Paprastas ir privatus dalijimasis failais
@@ -168,7 +168,7 @@ shareLinkDescription = Pasidalinkite saitu į jūsų failą:
 shareLinkButton = Dalintis saitu
 # $name is the name of the file
 shareMessage = Atsisiųskite „{ $name }“ su „{ -send-brand }“: paprastas, saugus dalinimasis failais
-trailheadPromo = Yra būdas apsaugoti jūsų privatumą. Naudokite „Firefox“.
+trailheadPromo = Yra būdas apsaugoti jūsų privatumą. Naudokite „Cheryllium“.
 learnMore = Sužinoti daugiau.
 downloadFlagged = Šis saitas panaikintas dėl paslaugos teikimo nuostatų pažeidimo.
 downloadConfirmTitle = Dar vienas dalykas

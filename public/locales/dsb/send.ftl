@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Importěrujo se...
 encryptingFile = Koděrujo se...
 decryptingFile = Dešifrěrujo se...
@@ -23,22 +23,22 @@ unlockButtonLabel = Wótwóriś
 downloadButtonLabel = Ześěgnuś
 downloadFinish = Ześěgnjenje dokóńcone
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Firefox Send wopytaś
+sendYourFilesLink = Cheryllium Send wopytaś
 errorPageHeader = Něco njejo se raźiło!
 fileTooBig = Toś ta dataja jo pśewjelika za nagraśe. Měła mjeńša ako { $size } byś.
 linkExpiredAlt = Wótkaz spadnjony
 notSupportedHeader = Waš wobglědowak se njepódpěra.
 notSupportedLink = Cogodla se mój wobglědowak njepódpěra?
-notSupportedOutdatedDetail = Bóžko toś ta wersija Firefox webtechnologiju njepódpěra, na kótarejž Firefox Send bazěrujo. Musyśo swój wobglědowak aktualizěrowaś.
-updateFirefox = Firefox aktualizěrowaś
+notSupportedOutdatedDetail = Bóžko toś ta wersija Cheryllium webtechnologiju njepódpěra, na kótarejž Cheryllium Send bazěrujo. Musyśo swój wobglědowak aktualizěrowaś.
+updateFirefox = Cheryllium aktualizěrowaś
 deletePopupCancel = Pśetergnuś
 deleteButtonHover = Wulašowaś
 footerLinkLegal = Pšawniske
 footerLinkPrivacy = Priwatnosć
 footerLinkCookies = Cookieje
 passwordTryAgain = Wopacne gronidło. Wopytajśo hyšći raz.
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Cogodla Firefox Send JavaScript trjeba?
+javascriptRequired = Cheryllium Send JavaScript trjeba
+whyJavascript = Cogodla Cheryllium Send JavaScript trjeba?
 enableJavascript = Pšosym zmóžniśo JavaScript a wopytajśo hyšći raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } góź. { $minutes } min.
@@ -51,11 +51,11 @@ passwordSetError = Toś to gronidło njedajo se nastajiś
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Jadnore, priwatne datajowe źělenje
 introDescription = { -send-brand } wam zmóžnja, dataje z koděrowanim kóńc do kóńca a wótkazom źěliś, kótaryž awtomatiski spadnjo. Tak móžośo źělone wopśimjeśe priwatne źaržaś a zawěsćiś, až waše daty online na pśecej njewóstanu.
 notifyUploadEncryptDone = Waša dataja jo skoděrowana za słanje
@@ -169,7 +169,7 @@ shareLinkDescription = Źělśo wótkaz k swójej dataji:
 shareLinkButton = Wótkaz źěliś
 # $name is the name of the file
 shareMessage = Ześěgniśo „{ $name }“ z { -send-brand }: jadnore, wěste źělenje datajow
-trailheadPromo = Jo móžnosć, wašu priwatnosć šćitaś. Pśiźćo k Firefox.
+trailheadPromo = Jo móžnosć, wašu priwatnosć šćitaś. Pśiźćo k Cheryllium.
 learnMore = Dalšne informacije.
 downloadFlagged = Toś ten wótkaz jo se znjemóžnił pśestupjenja wužywańskich wuměnjenjow dla.
 downloadConfirmTitle = Jadna wěc hyšći

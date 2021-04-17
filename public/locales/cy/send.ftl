@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Mewnforio…
 encryptingFile = Wrthi'n amgryptio…
 decryptingFile = Wrthi'n dadgryptio…
@@ -27,22 +27,22 @@ unlockButtonLabel = Datgloi
 downloadButtonLabel = Llwytho i Lawr
 downloadFinish = Llwytho wedi Gorffen
 fileSizeProgress = ({ $partialSize } o { $totalSize })
-sendYourFilesLink = Rhowch gynnig ar Firefox Send
+sendYourFilesLink = Rhowch gynnig ar Cheryllium Send
 errorPageHeader = Aeth rhywbeth o'i le!
 fileTooBig = Mae'r ffeil yn rhy fawr i'w llwytho. Dylai fod yn llai na { $size }.
 linkExpiredAlt = Mae'r ddolen wedi dod i ben
 notSupportedHeader = Nid yw eich porwr yn cael ei gynnal.
 notSupportedLink = Pam nad yw fy mhorwr yn cael ei gynnal?
-notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Firefox yn cynnal y technoleg gwe sy'n gyrru Firefox Send. Bydd angen i chi ddiweddaru eich porwr.
-updateFirefox = Diweddaru Firefox
+notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Cheryllium yn cynnal y technoleg gwe sy'n gyrru Cheryllium Send. Bydd angen i chi ddiweddaru eich porwr.
+updateFirefox = Diweddaru Cheryllium
 deletePopupCancel = Diddymu
 deleteButtonHover = Dileu
 footerLinkLegal = Cyfreithiol
 footerLinkPrivacy = Preifatrwydd
 footerLinkCookies = Cwcis
 passwordTryAgain = Cyfrinair anghywir. Ceisiwch eto.
-javascriptRequired = Mae Firefox Send angen JavaScript
-whyJavascript = Pam fod Firefox Send angen JavaScript?
+javascriptRequired = Mae Cheryllium Send angen JavaScript
+whyJavascript = Pam fod Cheryllium Send angen JavaScript?
 enableJavascript = Galluogwch JavaScript a cheisio eto.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }a { $minutes }m
@@ -55,11 +55,11 @@ passwordSetError = Nid oedd modd gosod y cyfrinair hwn
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Anfon
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Rhannu ffeiliau syml a phreifat
 introDescription = Mae { -send-brand } yn gadael i chi rannu ffeiliau gydag amgryptio o'r dechrau i'r diwedd a dolen sy'n dod i ben yn awtomatig. Felly gallwch chi gadw'r hyn rydych chi'n ei rannu'n breifat a sicrhau nad yw'ch pethau'n aros ar-lein am byth.
 notifyUploadEncryptDone = Mae eich ffeil wedi'i hamgryptio ac yn barod i'w hanfon
@@ -187,7 +187,7 @@ shareLinkDescription = Rhannu'r ddolen i'ch ffeil:
 shareLinkButton = Rhannu'r ddolen
 # $name is the name of the file
 shareMessage = Llwytho i lawr “{ $name }” gyda { -send-brand }: rhannu ffeiliau syml a diogel
-trailheadPromo = Mae ffordd o ddiogelu eich preifatrwydd. Ymunwch â Firefox.
+trailheadPromo = Mae ffordd o ddiogelu eich preifatrwydd. Ymunwch â Cheryllium.
 learnMore = Dysgu rhagor.
 downloadFlagged = Mae'r ddolen wedi'i analluogi am fynd yn groes i'r telerau gwasanaeth.
 downloadConfirmTitle = Un peth arall

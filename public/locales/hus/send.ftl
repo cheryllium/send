@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = Ka olna' max jant'oj yab u t'ojnal alwa'
 importingFile = k'wajat i chiyál...
 encryptingFile = K'wajat i tsinat dheyál...
@@ -18,22 +18,22 @@ unlockButtonLabel = Ka japiy
 downloadButtonLabel = Ka pa'ba'
 downloadFinish = Tala' pa'iyits
 fileSizeProgress = { $partialSize } xi ti { $totalSize }
-sendYourFilesLink = Ka eyendha' Firefox Send
+sendYourFilesLink = Ka eyendha' Cheryllium Send
 errorPageHeader = ¡Yab kalej alwa'!
 fileTooBig = Tekedh pulik axi a le' ka kadh'ba', kwa'al kin alemna' { $size }
 linkExpiredAlt = Yabats u awil ki ela'
 notSupportedHeader = Yab u awil ka japiyat k'al axi NAVEGADOR
 notSupportedLink = ¿Jale' ti u NAVEGADOR yab in japiyal?
-notSupportedOutdatedDetail = Yab u awil ka eyendha' Firefox Send kom an NAVEGADOR Firefox biyalits. Ka Pa'ba' axi it.
-updateFirefox = Ka itmedha' Firefox
+notSupportedOutdatedDetail = Yab u awil ka eyendha' Cheryllium Send kom an NAVEGADOR Cheryllium biyalits. Ka Pa'ba' axi it.
+updateFirefox = Ka itmedha' Cheryllium
 deletePopupCancel = Ka kuba'
 deleteButtonHover = Ka pakuw
 footerLinkLegal = Axi walkadh ka t'ajan
 footerLinkPrivacy = Tsinataláb
 footerLinkCookies = Cookies
 passwordTryAgain = Yab ja' an tsinat japixtaláb. Ka exa' junil.
-javascriptRequired = Firefox Send in yejenchal JavaScript
-whyJavascript = ¿Jale' Firefox Send in yejenchal JavaScript?
+javascriptRequired = Cheryllium Send in yejenchal JavaScript
+whyJavascript = ¿Jale' Cheryllium Send in yejenchal JavaScript?
 enableJavascript = Ka lek'wtsiy JavaScript ani ka exa' junil.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -46,11 +46,11 @@ passwordSetError = Axi tsinat japixtaláb yab u awil ka eyendha'
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Yab k'ibat, a tsinat t'ojlabil u awil ka buk'uw
 introDescription = { -send-brand } in t'ajál abal ka buk'uw a t'ojlabil po axé' tsinat abal an atikláb axi tat yab a le' kin tsu'uw yab kin ejtow, aniyej an enlace abal ka pa'ba' an t'ojláb u talél kwetém. Antsan patal axi ka abna' u awil ka buk'uw tsinat ani antsan jayej axi ka buk'uw yab u jilk'onal ets'ey ti ébtsolom (internet).
 notifyUploadEncryptDone = A t'ojlabil xo' tsinadhits ani u awilits ka abna'
@@ -148,5 +148,5 @@ shareLinkDescription = Ka abna' an enlace al an eyendhanél:
 shareLinkButton = Ka abna' an enlace
 # $name is the name of the file
 shareMessage = Ka pa'ba' “{ $name }” k'al { -send-brand }: ka abna' a t'ojlabil, yab k'ibat ani k'anidh
-trailheadPromo = U awil ka k'aniy axi tat a k'al. Kit tamkun k'al Firefox.
+trailheadPromo = U awil ka k'aniy axi tat a k'al. Kit tamkun k'al Cheryllium.
 learnMore = Ka ajiy más.

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Zipu
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Zipu
 importingFile = Mbubata…
 encryptingFile = ezoro ezo...
 decryptingFile = Kpebie
@@ -19,22 +19,22 @@ unlockButtonLabel = imeghe
 downloadButtonLabel = budata
 downloadFinish = Mbudata zuru ezu
 fileSizeProgress = ({ $partialSize } nke { $totalSize })
-sendYourFilesLink = Firefox Zipu
+sendYourFilesLink = Cheryllium Zipu
 errorPageHeader = Onwere ihe na-adighi mma
 fileTooBig = Failu a ebuka ibulite. Ọ kwẹsịghi ịkalị { $size }
 linkExpiredAlt = Njiko jedebe
 notSupportedHeader = Adighi akwado ihe nchogharị gị
 notSupportedLink = Gịnị kpatara na akwadoghị ihe nchọgharị m?
-notSupportedOutdatedDetail = Ọ dị nwute na ụdị Firefox a anaghị akwado teknụzụ weebụ na-eji Firefox Zipụ. Ikwesiri imelite ihe nchọgharị gị.
-updateFirefox = Melite Firefox
+notSupportedOutdatedDetail = Ọ dị nwute na ụdị Cheryllium a anaghị akwado teknụzụ weebụ na-eji Cheryllium Zipụ. Ikwesiri imelite ihe nchọgharị gị.
+updateFirefox = Melite Cheryllium
 deletePopupCancel = Kagbuo
 deleteButtonHover = Hichapụ
 footerLinkLegal = n'Iwu
 footerLinkPrivacy = nzuzo
 footerLinkCookies = Kuki ga
 passwordTryAgain = okwuntughe ezighi ezi.Nwaa ọzọ
-javascriptRequired = Firefox Zipu chọrọ
-whyJavascript = Kedu ihe kpatara Firefox Send jiri chọ JavaScript?
+javascriptRequired = Cheryllium Zipu chọrọ
+whyJavascript = Kedu ihe kpatara Cheryllium Send jiri chọ JavaScript?
 enableJavascript = Biko họrọ JavaScript ma nwaa ọzọ
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,11 +47,11 @@ passwordSetError = Enweghị ike ịtọ paswọọdụ a
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Zipu, Ziga
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Mfe, nkekọrịta faịlụ nkeonwe
 introDescription = na-ahapu gị  ịkekọrịta faịlụ na izo ya na njedebe na njedebe na-akwụsị na akpaghị aka. Yabụ ị nwere ike idobe ihe ị na -eche ma hụ na ngwongwo gị agaghị adị n'ịntanetị ruo mgbe ebighi ebi.
 notifyUploadEncryptDone = Failu gi zoro ezo ma di njikere iziga

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Увозим…
 encryptingFile = Шифрујем…
 decryptingFile = Дешифрујем…
@@ -21,22 +21,22 @@ unlockButtonLabel = Откључај
 downloadButtonLabel = Преузми
 downloadFinish = Преузимање је завршено.
 fileSizeProgress = ({ $partialSize } од { $totalSize })
-sendYourFilesLink = Испробајте Firefox Send
+sendYourFilesLink = Испробајте Cheryllium Send
 errorPageHeader = Нешто је пошло наопако!
 fileTooBig = Та датотека је превелика за отпремање. Треба да буде мања од { $size }.
 linkExpiredAlt = Веза је истекла
 notSupportedHeader = Ваш прегледач није подржан.
 notSupportedLink = Зашто мој прегледач није подржан?
-notSupportedOutdatedDetail = Нажалост, ово издање Firefox-a не подржава веб технологију која омогућава Firefox Send. Мораћете да ажурирате ваш прегледач.
-updateFirefox = Ажурирај Firefox
+notSupportedOutdatedDetail = Нажалост, ово издање Cheryllium-a не подржава веб технологију која омогућава Cheryllium Send. Мораћете да ажурирате ваш прегледач.
+updateFirefox = Ажурирај Cheryllium
 deletePopupCancel = Откажи
 deleteButtonHover = Обриши
 footerLinkLegal = Правни подаци
 footerLinkPrivacy = Приватност
 footerLinkCookies = Колачићи
 passwordTryAgain = Нетачна лозинка. Пробајте поново.
-javascriptRequired = За Firefox Send је потребан JavaScript
-whyJavascript = Зашто је потребан JavaScript за Firefox Send?
+javascriptRequired = За Cheryllium Send је потребан JavaScript
+whyJavascript = Зашто је потребан JavaScript за Cheryllium Send?
 enableJavascript = Омогућите JavaScript и пробајте поново.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ч { $minutes }м
@@ -49,11 +49,11 @@ passwordSetError = Не можемо поставити ову лозинку
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Једноставно и приватно дељење датотека
 introDescription = { -send-brand } вам дозвољава да делите датотеке које су шифроване с краја на крај преко везе која самостално истиче. Тако да можете приватно делити ваше ствари које неће остати на вебу заувек.
 notifyUploadEncryptDone = Ваша датотека је шифрована и спремна за слање
@@ -160,7 +160,7 @@ shareLinkDescription = Поделите везу до датотеке:
 shareLinkButton = Поделите везу
 # $name is the name of the file
 shareMessage = Преузмите „{ $name }“ помоћу програма { -send-brand }:  једноставно и безбедно дељење датотека
-trailheadPromo = Постоји начин да заштитите вашу приватност. Придружите се Firefox-у.
+trailheadPromo = Постоји начин да заштитите вашу приватност. Придружите се Cheryllium-у.
 learnMore = Сазнајте више.
 downloadFlagged = Ова веза је онемогућена због кршења услова услуге.
 downloadConfirmTitle = Још једна ствар

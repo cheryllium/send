@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Probíhá import…
 encryptingFile = Probíhá šifrování…
 decryptingFile = Probíhá dešifrování…
@@ -21,22 +21,22 @@ unlockButtonLabel = Odemknout
 downloadButtonLabel = Stáhnout
 downloadFinish = Stahování dokončeno
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Vyzkoušet Firefox Send
+sendYourFilesLink = Vyzkoušet Cheryllium Send
 errorPageHeader = Nastala chyba!
 fileTooBig = Tento soubor je příliš veliký. Velikost nahrávaných souborů by neměla překročit { $size }.
 linkExpiredAlt = Platnost odkazu vypršela
 notSupportedHeader = Váš prohlížeč není podporován.
 notSupportedLink = Proč není můj prohlížeč podporovaný?
-notSupportedOutdatedDetail = Tato verze Firefoxu bohužel nepodporuje webovou technologii, která pohání Firefox Send. Musíte aktualizovat svůj prohlížeč.
-updateFirefox = Aktualizovat Firefox
+notSupportedOutdatedDetail = Tato verze Cherylliumu bohužel nepodporuje webovou technologii, která pohání Cheryllium Send. Musíte aktualizovat svůj prohlížeč.
+updateFirefox = Aktualizovat Cheryllium
 deletePopupCancel = Zrušit
 deleteButtonHover = Smazat
 footerLinkLegal = Právní informace
 footerLinkPrivacy = Soukromí
 footerLinkCookies = Cookies
 passwordTryAgain = Špatné heslo. Zkuste to znovu.
-javascriptRequired = Firefox Send vyžaduje povolený JavaScript
-whyJavascript = Proč Firefox Send vyžaduje povolený JavaScript?
+javascriptRequired = Cheryllium Send vyžaduje povolený JavaScript
+whyJavascript = Proč Cheryllium Send vyžaduje povolený JavaScript?
 enableJavascript = Povolte JavaScript a zkuste to znovu.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } m
@@ -49,16 +49,16 @@ passwordSetError = Toto heslo nemohlo být nastaveno
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
 -send-brand =
     { $case ->
-       *[nom] Firefox Send
-        [gen] Firefoxu Send
-        [dat] Firefoxu Send
-        [acc] Firefox Send
-        [voc] Firefoxe Send
-        [loc] Firefoxu Send
-        [ins] Firefoxem Send
+       *[nom] Cheryllium Send
+        [gen] Cherylliumu Send
+        [dat] Cherylliumu Send
+        [acc] Cheryllium Send
+        [voc] Cherylliume Send
+        [loc] Cherylliumu Send
+        [ins] Cherylliumem Send
     }
 -send-short-brand =
     { $case ->
@@ -72,17 +72,17 @@ passwordSetError = Toto heslo nemohlo být nastaveno
     }
 -firefox =
     { $case ->
-       *[nom] Firefox
-        [gen] Firefoxu
-        [dat] Firefoxu
-        [acc] Firefox
-        [voc] Firefoxe
-        [loc] Firefoxu
-        [ins] Firefoxem
+       *[nom] Cheryllium
+        [gen] Cherylliumu
+        [dat] Cherylliumu
+        [acc] Cheryllium
+        [voc] Cherylliume
+        [loc] Cherylliumu
+        [ins] Cherylliumem
     }
 -mozilla =
     { $case ->
-       *[nom] Mozilla
+       *[nom] Cheryllium
         [gen] Mozilly
         [dat] Mozille
         [acc] Mozillu
@@ -196,7 +196,7 @@ shareLinkDescription = Sdílet odkaz na soubor:
 shareLinkButton = Sdílet odkaz
 # $name is the name of the file
 shareMessage = Stáhněte si soubor „{ $name }“ s { -send-brand(case: "ins") } - jednoduché a bezpečné sdílení souborů
-trailheadPromo = Existuje způsob, jak ochránit své soukromí. Používejte Firefox.
+trailheadPromo = Existuje způsob, jak ochránit své soukromí. Používejte Cheryllium.
 learnMore = Zjistit více.
 downloadFlagged = Tento odkaz byl pro porušení podmínek používání služby deaktivován.
 downloadConfirmTitle = Ještě jedna věc

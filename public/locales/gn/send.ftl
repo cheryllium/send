@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Ojegueruhína…
 encryptingFile = Mo’ãmby…
 decryptingFile = Ñemo’ã’o…
@@ -19,22 +19,22 @@ unlockButtonLabel = Mbojera
 downloadButtonLabel = Mboguejy
 downloadFinish = Oguejypáma
 fileSizeProgress = ({ $partialSize } rehe { $totalSize })
-sendYourFilesLink = Eipuru Firefox Send
+sendYourFilesLink = Eipuru Cheryllium Send
 errorPageHeader = ¡Oiko jejavy!
 fileTooBig = Marandurenda tuichaiterei ehupi hag̃ua. Michĩveva’erã { $size } gui.
 linkExpiredAlt = Juajuha ndoikóiva
 notSupportedHeader = Ne kundaha ndorekói pytyvõ.
 notSupportedLink = ¿Mba’ére che kundahára ndorekói ñepytyvõ?
-notSupportedOutdatedDetail = Ko Firefox rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Firefox Send. Embohekopyahúke ne kundahára.
-updateFirefox = Firefox mbohekopyahu
+notSupportedOutdatedDetail = Ko Cheryllium rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Cheryllium Send. Embohekopyahúke ne kundahára.
+updateFirefox = Cheryllium mbohekopyahu
 deletePopupCancel = Heja
 deleteButtonHover = Mboguete
 footerLinkLegal = Añetegua
 footerLinkPrivacy = Ñemigua
 footerLinkCookies = Kookie
 passwordTryAgain = Ñe’ẽñemi ndoikóiva. Eha’ãjey.
-javascriptRequired = Firefox Send oikotevẽ JavaScript
-whyJavascript = ¿Mba’ére Firefox Send oikotevẽ JavaScript?
+javascriptRequired = Cheryllium Send oikotevẽ JavaScript
+whyJavascript = ¿Mba’ére Cheryllium Send oikotevẽ JavaScript?
 enableJavascript = Ikatúpa embojuruja JavaScript ha eha’ãjey uperire.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } m
@@ -47,11 +47,11 @@ passwordSetError = Ndaikatúi oikóvo ko ñe’ẽñemi
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Marandurenda ñemoambue hasy’ỹ ha ñemiguáva
 introDescription = { -send-brand } omoherakuãkuaa marandurenda papapýpe ñepyrũ guive opa peve ha juajuha opareíva ijehegui. Ikatu oreko ñemihápe emoherakuãva ha ehecháta mba’éicha ne mba’ekuéra noĩri ñandutípe opa ára.
 notifyUploadEncryptDone = Ne marandurenda oñemo’ã ha ikatúma emondo
@@ -151,7 +151,7 @@ shareLinkDescription = Emoherakuã juajuha ne mba’e’oka ndive:
 shareLinkButton = Emoherakuã juajuha
 # $name is the name of the file
 shareMessage = Emboguejy “{ $name }” { -send-brand } ndive: emoherakuã marandurenda tasy’ỹ ha tekorosãme
-trailheadPromo = Mba’éichapa emo’ãta ne ñemigua. Eipuru Firefox.
+trailheadPromo = Mba’éichapa emo’ãta ne ñemigua. Eipuru Cheryllium.
 learnMore = Kuaave.
 downloadFlagged = Ko juajuha ojepe’áma ombyai rupi mba’epytyvõrã ñemboguata.
 downloadConfirmTitle = Peteĩ mba’eve

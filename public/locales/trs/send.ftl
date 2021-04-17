@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Hìaj a'nïn huan'ānj…
 encryptingFile = Nagi'iaj hùij…
 decryptingFile = Hìaj nâ'nïn…
@@ -19,22 +19,22 @@ unlockButtonLabel = Na'nïn riñanj
 downloadButtonLabel = Nadunïnj
 downloadFinish = Ngà nahui nanïnj
 fileSizeProgress = ({ $partialSize } guendâ { $totalSize })
-sendYourFilesLink = Garahuè dàj 'iaj sun Firefox Send
+sendYourFilesLink = Garahuè dàj 'iaj sun Cheryllium Send
 errorPageHeader = Huā sa gahui a'nan'!
 fileTooBig = Ûta yachìj hua archibô dan. Da'ui gā li doj ga da' { $size }
 linkExpiredAlt = Nitāj si ni'ñānj lînk gà'
 notSupportedHeader = Nitāj si huā hue'ê riña sa nana'uî't.
 notSupportedLink = Nù huin saj nitāj si huā hue'ê riña sa nana'uí?
-notSupportedOutdatedDetail = Nu unùkuaj Firefox nan gi'iaj sunj ngà sa 'iaj sun ngà Firefox Send. Da'uît nāgi'iaj nakàt riña sa nana'uî't han.
-updateFirefox = Nagi'iaj nakà Firefox
+notSupportedOutdatedDetail = Nu unùkuaj Cheryllium nan gi'iaj sunj ngà sa 'iaj sun ngà Cheryllium Send. Da'uît nāgi'iaj nakàt riña sa nana'uî't han.
+updateFirefox = Nagi'iaj nakà Cheryllium
 deletePopupCancel = Duyichin'
 deleteButtonHover = Dure'
 footerLinkLegal = Nuguan' a'nï'ïn
 footerLinkPrivacy = Sa hùii
 footerLinkCookies = Nej kôki
 passwordTryAgain = Sê da'nga' huì dan huin. Ginù huin ñû.
-javascriptRequired = Ni'ñānj Firefox Send JavaScript
-whyJavascript = Nù huin saj ni'ñānj Firefox Send JavaScript rà'aj?
+javascriptRequired = Ni'ñānj Cheryllium Send JavaScript
+whyJavascript = Nù huin saj ni'ñānj Cheryllium Send JavaScript rà'aj?
 enableJavascript = Gi'iaj sunūj u ga'nïn gi'iaj sun JavaScript nī yakāj da'nga' ñû.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,11 +47,11 @@ passwordSetError = Na'ue gārayinaj da'nga huìi
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Hìo nī huì ga’ue duyingâ’t archîbo
 introDescription = { -send-brand } a’nïn duyingâ’t archîbo ngà ‘ngō da’nga’rán hia nī ngà ‘ngō lînk nare’ man‘an. Dànanj nī ‘ngō rïnt ni’in sa duyingâ’t nī si lînk si ginu yitïn riña lînia.
 notifyUploadEncryptDone = Ngà huā ran si archibôt nī ngà huā yugui da’ ga’nïnjt gan’an

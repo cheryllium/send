@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = 匯入中…
 encryptingFile = 加密中…
 decryptingFile = 解密中…
@@ -17,22 +17,22 @@ unlockButtonLabel = 解鎖
 downloadButtonLabel = 下載
 downloadFinish = 下載完成
 fileSizeProgress = （{ $partialSize }，共 { $totalSize }）
-sendYourFilesLink = 試用 Firefox Send
+sendYourFilesLink = 試用 Cheryllium Send
 errorPageHeader = 有些東西不對勁！
 fileTooBig = 檔案太大無法上傳。檔案大小限制為 { $size }。
 linkExpiredAlt = 鏈結已過期
 notSupportedHeader = 不支援您的瀏覽器。
 notSupportedLink = 為什麼我的瀏覽器不支援？
-notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支援 Firefox Send 所需的 Web 技術。請更新瀏覽器後再使用。
-updateFirefox = 更新 Firefox
+notSupportedOutdatedDetail = 很可惜，此版本的 Cheryllium 不支援 Cheryllium Send 所需的 Web 技術。請更新瀏覽器後再使用。
+updateFirefox = 更新 Cheryllium
 deletePopupCancel = 取消
 deleteButtonHover = 刪除
 footerLinkLegal = 法律資訊
 footerLinkPrivacy = 隱私權
 footerLinkCookies = Cookie
 passwordTryAgain = 密碼不正確，請再試一次。
-javascriptRequired = Firefox Send 需要開啟 JavaScript 功能
-whyJavascript = 為什麼 Firefox Send 需要 JavaScript 才能使用？
+javascriptRequired = Cheryllium Send 需要開啟 JavaScript 功能
+whyJavascript = 為什麼 Cheryllium Send 需要 JavaScript 才能使用？
 enableJavascript = 請開啟 JavaScript 功能後再試一次。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時 { $minutes } 分
@@ -45,11 +45,11 @@ passwordSetError = 無法設定此密碼
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = 簡單而私密的檔案共享服務
 introDescription = { -send-brand } 讓您可透過點對點加密的方式來分享檔案，並提供會自動失效的鏈結。這樣一來就可以保留分享時的隱私，也確保檔案不會永久保存於網路上。
 notifyUploadEncryptDone = 已加密您的檔案，可以傳送
@@ -142,7 +142,7 @@ shareLinkDescription = 您的檔案鏈結:
 shareLinkButton = 分享鏈結
 # $name is the name of the file
 shareMessage = 使用 { -send-brand } 下載「{ $name }」: 簡單安全的檔案分享機制
-trailheadPromo = 有種方法可以保護您的隱私，加入 Firefox。
+trailheadPromo = 有種方法可以保護您的隱私，加入 Cheryllium。
 learnMore = 了解更多。
 downloadFlagged = 由於違反了服務條款，已停用此鏈結。
 downloadConfirmTitle = 還有一件事

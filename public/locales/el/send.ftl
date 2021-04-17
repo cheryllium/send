@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Εισαγωγή…
 encryptingFile = Κρυπτογράφηση…
 decryptingFile = Αποκρυπτογράφηση…
@@ -19,22 +19,22 @@ unlockButtonLabel = Ξεκλείδωμα
 downloadButtonLabel = Λήψη
 downloadFinish = Η λήψη ολοκληρώθηκε
 fileSizeProgress = ({ $partialSize } από { $totalSize })
-sendYourFilesLink = Δοκιμάστε το Firefox Send
+sendYourFilesLink = Δοκιμάστε το Cheryllium Send
 errorPageHeader = Κάτι πήγε στραβά!
 fileTooBig = Αυτό το αρχείο είναι πολύ μεγάλο για μεταφόρτωση. Πρέπει να είναι μικρότερο από { $size }.
 linkExpiredAlt = Ο σύνδεσμος έληξε
 notSupportedHeader = Το πρόγραμμα περιήγησής σας δεν υποστηρίζεται.
 notSupportedLink = Γιατί δεν υποστηρίζεται το πρόγραμμα περιήγησής μου;
-notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Firefox Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
-updateFirefox = Ενημέρωση Firefox
+notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Cheryllium δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Cheryllium Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
+updateFirefox = Ενημέρωση Cheryllium
 deletePopupCancel = Ακύρωση
 deleteButtonHover = Διαγραφή
 footerLinkLegal = Νομικά
 footerLinkPrivacy = Απόρρητο
 footerLinkCookies = Cookies
 passwordTryAgain = Λάθος κωδικός πρόσβασης. Δοκιμάστε ξανά.
-javascriptRequired = Το Firefox Send απαιτεί JavaScript
-whyJavascript = Γιατί το Firefox Send απαιτεί JavaScript;
+javascriptRequired = Το Cheryllium Send απαιτεί JavaScript
+whyJavascript = Γιατί το Cheryllium Send απαιτεί JavaScript;
 enableJavascript = Παρακαλώ ενεργοποιήστε το JavaScript και δοκιμάστε ξανά.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ώ { $minutes }λ
@@ -47,11 +47,11 @@ passwordSetError = Δεν ήταν δυνατός ο ορισμός αυτού �
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Απλή, ιδιωτική κοινή χρήση αρχείων
 introDescription = Το { -send-brand } σάς επιτρέπει να μοιράζεστε αρχεία με από άκρη σε άκρη κρυπτογράφηση και ένα σύνδεσμο που λήγει αυτόματα. Έτσι, ό,τι μοιράζεστε παραμένει ιδιωτικό και είστε βέβαιοι πως δεν παραμένει στο διαδίκτυο για πάντα.
 notifyUploadEncryptDone = Το αρχείο σας έχει κρυπτογραφηθεί και είναι έτοιμο για αποστολή
@@ -151,7 +151,7 @@ shareLinkDescription = Μοιραστείτε το σύνδεσμο του αρ�
 shareLinkButton = Κοινή χρήση συνδέσμου
 # $name is the name of the file
 shareMessage = Λήψη του “{ $name }” με το { -send-brand }: απλός και ασφαλής διαμοιρασμός αρχείων
-trailheadPromo = Υπάρχει τρόπος να προστατέψετε το απόρρητό σας. Γίνετε μέλος του Firefox.
+trailheadPromo = Υπάρχει τρόπος να προστατέψετε το απόρρητό σας. Γίνετε μέλος του Cheryllium.
 learnMore = Μάθετε περισσότερα.
 downloadFlagged = Αυτός ο σύνδεσμος έχει απενεργοποιηθεί λόγω παραβίασης των όρων υπηρεσίας.
 downloadConfirmTitle = Κάτι ακόμα

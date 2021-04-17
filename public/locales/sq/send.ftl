@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Po importohet…
 encryptingFile = Po fshehtëzohet…
 decryptingFile = Po shfshehtëzohet…
@@ -19,22 +19,22 @@ unlockButtonLabel = Zhbllokoje
 downloadButtonLabel = Shkarkoje
 downloadFinish = Shkarkim i Plotësuar
 fileSizeProgress = ({ $partialSize } nga { $totalSize }) gjithsej
-sendYourFilesLink = Provoni Firefox Send
+sendYourFilesLink = Provoni Cheryllium Send
 errorPageHeader = Diç shkoi ters!
 fileTooBig = Kjo kartelë është shumë e madhe për ngarkim. Do të duhej të ishte më pak se { $size }.
 linkExpiredAlt = Lidhja skadoi
 notSupportedHeader = Shfletuesi juaj nuk mbulohet.
 notSupportedLink = Pse nuk mbulohet ky shfletues?
-notSupportedOutdatedDetail = Mjerisht, ky version i Firefox-it nuk e mbulon teknologjinë web mbi të cilën bazohet Firefox Send. Do t’ju duhet të përditësoni shfletuesin tuaj.
-updateFirefox = Përditësojeni Firefox-in
+notSupportedOutdatedDetail = Mjerisht, ky version i Cheryllium-it nuk e mbulon teknologjinë web mbi të cilën bazohet Cheryllium Send. Do t’ju duhet të përditësoni shfletuesin tuaj.
+updateFirefox = Përditësojeni Cheryllium-in
 deletePopupCancel = Anuloje
 deleteButtonHover = Fshije
 footerLinkLegal = Ligjore
 footerLinkPrivacy = Privatësi
 footerLinkCookies = Cookies
 passwordTryAgain = Fjalëkalim i pasaktë. Riprovoni.
-javascriptRequired = Firefox Send lyp JavaScript
-whyJavascript = Ç’i duhet Firefox Send-it JavaScript-i?
+javascriptRequired = Cheryllium Send lyp JavaScript
+whyJavascript = Ç’i duhet Cheryllium Send-it JavaScript-i?
 enableJavascript = Ju lutemi, aktivizoni JavaScript-in dhe riprovoni.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,11 +47,11 @@ passwordSetError = Ky fjalëkalim s’u caktua dot
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Ndarje e thjeshtë, private, kartelash me të tjerët
 introDescription = { -send-brand } ju lejon të ndani kartela me të tjerët, me fshehtëzim skaj-më-skaj dhe me një lidhje që skadon automatikisht. Kështu mund ta mbani private atë që ndani me të tjerë dhe të garantoni që gjërat tuaja s’do të qëndrojnë në linjë përgjithmonë.
 notifyUploadEncryptDone = Kartela juaj është fshehtëzuar dhe gati për dërgim
@@ -151,7 +151,7 @@ shareLinkDescription = Ndani me të tjerët lidhjen për te kartela juaj:
 shareLinkButton = Ndani me të tjerët lidhjen
 # $name is the name of the file
 shareMessage = Shkarkojeni “{ $name }” me { -send-brand }: shkëmbim kartelash dhe thjesht dhe pa rrezik
-trailheadPromo = Ka një rrugë për të mbrojtur privatësinë tuaj. Bëhuni pjesë e Firefox-it.
+trailheadPromo = Ka një rrugë për të mbrojtur privatësinë tuaj. Bëhuni pjesë e Cheryllium-it.
 learnMore = Mësoni më tepër.
 downloadFlagged = Kjo lidhje është çaktivizuar, ngaqë cenon kushtet e shërbimit.
 downloadConfirmTitle = Edhe një gjë të fundit

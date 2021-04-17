@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send je oruko ile-ise kan, kò sì ye ki a so di ibile.
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send je oruko ile-ise kan, kò sì ye ki a so di ibile.
 importingFile = akowọle…
 encryptingFile = Fifi ọrọ ṣiṣẹ…
 decryptingFile = Ti nkọ nkan…
@@ -24,9 +24,9 @@ downloadFinish =
     Ìsíwá parí
     Ìgbasílẹ̀ parí
 sendYourFilesLink =
-    Gbìyànjúu Firefox Send
-    Gbìyànjú lo Firefox Send
-    Dán Firefox Send wò
+    Gbìyànjúu Cheryllium Send
+    Gbìyànjú lo Cheryllium Send
+    Dán Cheryllium Send wò
 errorPageHeader = Nnkan o lo daadaa!
 fileTooBig =
     Fáìlì yìí tóbijù láti gbà sókè. Ó ní láti kéré sí { $size }
@@ -44,8 +44,8 @@ notSupportedLink =
     Kí ló ṣe tí ẹ̀rọ-aṣàwárí mi ò ní ìbátan?
     Kí nìdí tí ẹ̀rọ-ìfarakọ́ra mi ò ní ìbátan?
     Kí nìdí tí ẹ̀rọ-aṣàwárí mi ò ní ìbátan?
-notSupportedOutdatedDetail = Ó ṣe, wípé ẹ̀dà Firefox yí ò ní àtìlẹyìn ẹ̀rọ-alátagbà tí ó ń mú Firefox Send ṣiṣẹ́. O ní láti ṣe àgbéga èdà ẹ̀rọ-aṣàwárí rẹ kó bágbàmu.
-updateFirefox = Mú Firefox bágbàmu
+notSupportedOutdatedDetail = Ó ṣe, wípé ẹ̀dà Cheryllium yí ò ní àtìlẹyìn ẹ̀rọ-alátagbà tí ó ń mú Cheryllium Send ṣiṣẹ́. O ní láti ṣe àgbéga èdà ẹ̀rọ-aṣàwárí rẹ kó bágbàmu.
+updateFirefox = Mú Cheryllium bágbàmu
 deletePopupCancel =
     Nù kúrò
     Parẹ́
@@ -64,10 +64,10 @@ footerLinkCookies =
 passwordTryAgain =
     Ọ̀rọ̀-aṣínà kò tọ́. Gbìyànjú síi
     Ọ̀rọ̀-aṣíde kò tọ́. Gbìyànjú síi
-javascriptRequired = Firefox Send nílòo JavaScript
+javascriptRequired = Cheryllium Send nílòo JavaScript
 whyJavascript =
-    Kí nìdí tí Firefox fi nílòo JavaScript?
-    Kí nìdí tí Firefox ṣe nílòo JavaScript?
+    Kí nìdí tí Cheryllium fi nílòo JavaScript?
+    Kí nìdí tí Cheryllium ṣe nílòo JavaScript?
 enableJavascript =
     Jọ̀wọ́ tán JavaScript sílẹ̀ kí o sì gbìyànjú si.
     Jọ̀wọ́ ṣí JavaScript sílẹ̀ kí o sì gbìyànjú si.
@@ -86,13 +86,13 @@ passwordSetError =
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand =
     Fi ránṣẹ́
     Firánṣẹ́
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle =
     Fáìlì pípín níkọ̀kọ̀ tó dẹrùn
     Fáìlì pípín níkọ̀kọ̀ onírọ̀rùn
@@ -114,5 +114,5 @@ okButton = O DA
 downloadingTitle = N se igabsile
 noStreamsOptionFirefox = E gbiyanju asawakiri to je ayanfe wa
 noStreamsOptionDownload = Tesiwaju pelu aṣàwákiri yi
-trailheadPromo = Ona wa lati dabobo ipamo re. Darapo mo Firefox
+trailheadPromo = Ona wa lati dabobo ipamo re. Darapo mo Cheryllium
 learnMore = Keeko si

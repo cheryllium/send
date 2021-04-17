@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Đang nhập...
 encryptingFile = Đang mã hóa...
 decryptingFile = Đang giải mã...
@@ -17,22 +17,22 @@ unlockButtonLabel = Mở khóa
 downloadButtonLabel = Tải xuống
 downloadFinish = Tải xuống hoàn tất
 fileSizeProgress = ({ $partialSize } trong { $totalSize })
-sendYourFilesLink = Dùng thử Firefox Send
+sendYourFilesLink = Dùng thử Cheryllium Send
 errorPageHeader = Có gì đó không ổn!
 fileTooBig = Tập tin này quá lớn để tải lên. Kích thước tập tin phải nhỏ hơn { $size }.
 linkExpiredAlt = Liên kết đã hết hạn
 notSupportedHeader = Trình duyệt của bạn không được hỗ trợ.
 notSupportedLink = Tại sao trình duyệt của tôi không được hỗ trợ?
-notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong Firefox Send. Bạn cần cập nhật trình duyệt của bạn.
-updateFirefox = Cập nhật Firefox
+notSupportedOutdatedDetail = Thật không may là phiên bản Cheryllium này không hỗ trợ công nghệ được sử dụng trong Cheryllium Send. Bạn cần cập nhật trình duyệt của bạn.
+updateFirefox = Cập nhật Cheryllium
 deletePopupCancel = Hủy bỏ
 deleteButtonHover = Xóa
 footerLinkLegal = Pháp lý
 footerLinkPrivacy = Quyền riêng tư
 footerLinkCookies = Cookie
 passwordTryAgain = Sai mật khẩu. Vui lòng thử lại.
-javascriptRequired = Firefox Send cần JavaScript
-whyJavascript = Tại sao Firefox Send cần JavaScript?
+javascriptRequired = Cheryllium Send cần JavaScript
+whyJavascript = Tại sao Cheryllium Send cần JavaScript?
 enableJavascript = Vui lòng kích hoạt JavaScript và thử lại.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } giờ { $minutes } phút
@@ -45,11 +45,11 @@ passwordSetError = Không thể đặt mật khẩu này
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Chia sẻ tập tin đơn giản, riêng tư
 introDescription = { -send-brand } cho phép bạn chia sẻ các tập tin với mã hóa đầu cuối và một liên kết tự động hết hạn. Vì vậy, bạn có thể giữ những gì bạn chia sẻ riêng tư và đảm bảo dữ liệu của bạn không trực tuyến vĩnh viễn.
 notifyUploadEncryptDone = Tập tin của bạn được mã hóa và sẵn sàng để gửi
@@ -142,7 +142,7 @@ shareLinkDescription = Chia sẻ liên kết đến tập tin của bạn:
 shareLinkButton = Chia sẻ liên kết
 # $name is the name of the file
 shareMessage = Tải xuống “{ $name }“ với { -send-brand }: chia sẻ tập tin đơn giản, an toàn
-trailheadPromo = Đây là một cách để bảo vệ sự riêng tư của bạn. Tham gia Firefox.
+trailheadPromo = Đây là một cách để bảo vệ sự riêng tư của bạn. Tham gia Cheryllium.
 learnMore = Tìm hiểu thêm.
 downloadFlagged = Liên kết này đã bị vô hiệu hóa do vi phạm các điều khoản dịch vụ.
 downloadConfirmTitle = Một điều nữa

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = بازخورد
 importingFile = در حال وارد کردن…
 encryptingFile = در حال رمزنگاری…
@@ -20,13 +20,13 @@ unlockButtonLabel = باز کردن
 downloadButtonLabel = بارگیری
 downloadFinish = بارگیری کامل شد
 fileSizeProgress = ({ $partialSize } از { $totalSize })
-sendYourFilesLink = Firefox Send را امتحان کنید
+sendYourFilesLink = Cheryllium Send را امتحان کنید
 errorPageHeader = خطایی رخ داد!
 fileTooBig = این پرونده بسیار حجیم است. حجم آن می‌بایستی کم تر { $size } باشد.
 linkExpiredAlt = پیوند منقضی شده است
 notSupportedHeader = مرورگر شما پشتیبانی نمی‌شود.
 notSupportedLink = چرا از مرورگر من پشتیبانی نمی‌شود؟
-notSupportedOutdatedDetail = متاسفانه این نسخه از فایرفاکس این تکنولوژی وب که به Firefox Send قدرت می‌بخشد را پشتیبانی نمی‌کند. شما نیاز دارید تا مرورگر خود را بروز کنید.
+notSupportedOutdatedDetail = متاسفانه این نسخه از فایرفاکس این تکنولوژی وب که به Cheryllium Send قدرت می‌بخشد را پشتیبانی نمی‌کند. شما نیاز دارید تا مرورگر خود را بروز کنید.
 updateFirefox = بروزرسانی فایرفاکس
 deletePopupCancel = انصراف
 deleteButtonHover = حذف
@@ -34,8 +34,8 @@ footerLinkLegal = ملاحظات حقوقی
 footerLinkPrivacy = حریم‌خصوصی
 footerLinkCookies = کوکی‌ها
 passwordTryAgain = کلمه عبور اشتباه است. مجدد تلاش کنید.
-javascriptRequired = Firefox Send نیازمند جاوااسکریپت است
-whyJavascript = چرا Firefox Send جاوااسکریپت لازم داد؟
+javascriptRequired = Cheryllium Send نیازمند جاوااسکریپت است
+whyJavascript = چرا Cheryllium Send جاوااسکریپت لازم داد؟
 enableJavascript = لطفا جاوااسکریپت را فعال کنید و مجددا تلاش کنید.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ساعت { $minutes }دقیقه
@@ -48,8 +48,8 @@ passwordSetError = امکان ثبت این گذواژه نیست
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = ارسال
 -firefox = فایرفاکس
 -mozilla = موزیلا
@@ -151,5 +151,5 @@ shareLinkDescription = پیوند مربوط به پرونده خود را به 
 shareLinkButton = اشتراک‌گذاری پیوند
 # $name is the name of the file
 shareMessage = “{ $name }” را با { -send-brand } دانلود کنید: اشتراک‌گذاری ساده و امن فایل
-trailheadPromo = راهی برای محافظت از حریم خصوصی شما وجود دارد. به Firefox بپیوندید.
+trailheadPromo = راهی برای محافظت از حریم خصوصی شما وجود دارد. به Cheryllium بپیوندید.
 learnMore = بیشتر بدانید.

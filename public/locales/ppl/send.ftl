@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = Shitechnawati
 importingFile = Mukalaktia nemi…
 encryptingFile = Tikichtakawiat tinemit…
@@ -20,22 +20,22 @@ unlockButtonLabel = Shiktapua
 downloadButtonLabel = Shiktemulti
 downloadFinish = Senkiska mutemultij
 fileSizeProgress = ({ $partialSize } ipal { $totalSize })
-sendYourFilesLink = Shikejeku Firefox Send
+sendYourFilesLink = Shikejeku Cheryllium Send
 errorPageHeader = IJtakawtuk!
 fileTooBig = Ini tajkwilul sujsul etek pal tiktejkultia. Ma nemi san { $size }.
 linkExpiredAlt = Ne ilpika pulijtuk
 notSupportedHeader = Te tikishmatit ne mutachialuni.
 notSupportedLink = Taika te ankishmatit nutachialuni?
-notSupportedOutdatedDetail = Ini tamakalis ipal Firefox tesu kimati ne tzawaltekitilis ne kiyulitia Firefox Send. Nemi pal tikyankwilia ne mutachialuni.
-updateFirefox = Shikyankwili Firefox
+notSupportedOutdatedDetail = Ini tamakalis ipal Cheryllium tesu kimati ne tzawaltekitilis ne kiyulitia Cheryllium Send. Nemi pal tikyankwilia ne mutachialuni.
+updateFirefox = Shikyankwili Cheryllium
 deletePopupCancel = Shikilwi tesu
 deleteButtonHover = Shikpulu
 footerLinkLegal = Ipanpa ne tajtuli
 footerLinkPrivacy = Teichtakayu
 footerLinkCookies = Cookies
 passwordTryAgain = Ne ichtakatajkwilul tesu yek. Shikejeku uksenpa.
-javascriptRequired = Firefox Send muneki JavaScript
-whyJavascript = Taika Firefox Send muneki JavaScript?
+javascriptRequired = Cheryllium Send muneki JavaScript
+whyJavascript = Taika Cheryllium Send muneki JavaScript?
 enableJavascript = Shichiwa ma JavaScript tekiti wan shikejeku uksenpa.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,11 +48,11 @@ passwordSetError = Te tiweliket tiktaliat ini ichtakataketzalis
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Shiktitani
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Shikmajmaka se tajkwilul, te uij wan ichtaka
 introDescription = { -send-brand } metzpalewia tikmajmaka se tajkwilul iwan taichtakawilis wan se ilpika puliwi nemanha. Yajika, tikpia muichtakayu pal tikmajmaka wan tesu naka senpa mutajtatka tik matapan.
 notifyUploadEncryptDone = Ne archivoj nemi ichtakawijtuk wan weli tiktitania
@@ -151,5 +151,5 @@ shareLinkDescription = Shiktakuli ne ilpika ipal mutajkwilul:
 shareLinkButton = Shiktakuli ne ilpika
 # $name is the name of the file
 shareMessage = Shiktemulti “{ $name }” iwan { -send-brand }: ichtaka wan te uij
-trailheadPromo = Nemi ken pal tiktajpia ne muichtakayu. Shimuishtuka iwan Firefox.
+trailheadPromo = Nemi ken pal tiktajpia ne muichtakayu. Shimuishtuka iwan Cheryllium.
 learnMore = Shimumachti ukchupi.

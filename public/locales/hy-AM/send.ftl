@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = Արձագանք
 importingFile = Ներմուծում...
 encryptingFile = Գաղտնագրում…
@@ -20,22 +20,22 @@ unlockButtonLabel = Ապակողպել
 downloadButtonLabel = Ներբեռնել
 downloadFinish = Ներբեռնումն ավարտված է
 fileSizeProgress = ({ $partialSize }-ը { $totalSize })-ից
-sendYourFilesLink = Փորձել Firefox Send-ը
+sendYourFilesLink = Փորձել Cheryllium Send-ը
 errorPageHeader = Ինչ-որ բան այն չէ
 fileTooBig = Այդ ֆայլը չափազանց մեծ է վերբեռնելու համար: Այն պետք է լինի ավելի քիչ, քան { $size }-ը
 linkExpiredAlt = Հղումն ավարտված է
 notSupportedHeader = Ձեր զննարկիչը չի աջակցվում:
 notSupportedLink = Ինչու իմ զննարկիչը չի աջակցվում:
-notSupportedOutdatedDetail = Դժբախտաբար, Firefox- ի այս տարբերակը չի աջակցում այն վեբ տեխնոլոգիան, որը պետք է Firefox Send-ի համար: Դուք պետք է թարմացնեք ձեր զննարկիչը:
-updateFirefox = Թարմացնել Firefox-ը
+notSupportedOutdatedDetail = Դժբախտաբար, Cheryllium- ի այս տարբերակը չի աջակցում այն վեբ տեխնոլոգիան, որը պետք է Cheryllium Send-ի համար: Դուք պետք է թարմացնեք ձեր զննարկիչը:
+updateFirefox = Թարմացնել Cheryllium-ը
 deletePopupCancel = Չեղարկել
 deleteButtonHover = Ջնջել
 footerLinkLegal = Իրավական
 footerLinkPrivacy = Գաղտնիություն
 footerLinkCookies = Cookie-ներ
 passwordTryAgain = Սխալ գաղտնաբառ. Կրկին փորձեք:
-javascriptRequired = Firefox Send-ը պահանջում է JavaScript
-whyJavascript = Ինչո՞ւ է Firefox Send-ը պահանջում JavaScript.
+javascriptRequired = Cheryllium Send-ը պահանջում է JavaScript
+whyJavascript = Ինչո՞ւ է Cheryllium Send-ը պահանջում JavaScript.
 enableJavascript = Խնդրում ենք միացնել JavaScript-ը և կրկին փորձել:
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ժ { $minutes }ր
@@ -48,11 +48,11 @@ passwordSetError = Այս գաղտնաբառը հնարավոր չէ սահմա�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Ուղարկել
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Պարզ, մասնավոր ֆայլերի փոխանակում
 introDescription = { -send-brand }-ը թույլ է տալիս փոխանակել ֆայլեր ծայրից ծայր գաղտնագրման միջոցով և այնպիսի հղում, որն ինքնաբերաբար ավարտվում է: Այսպիսով, դուք կարող եք վերահսկել այն, ինչով կիսվում եք և համոզված լինեք, որ ձեր նյութերը հավերժ չեն մնա առցանց:
 notifyUploadEncryptDone = Ձեր ֆայլը գաղտնագրված է և պատրաստ է ուղարկել
@@ -151,5 +151,5 @@ shareLinkDescription = Կիսվեք ձեր ֆայլի հղումով.
 shareLinkButton = Համօգտագործել հղումը
 # $name is the name of the file
 shareMessage = Ներբեռնեք “{ $name }”-ը { -send-brand }-ով ՝ պարզ և ապահով՝ ֆայլերի համօգտագործում
-trailheadPromo = Ձեր գաղտնիությունը պաշտպանելու միջոց կա: Միացեք Firefox- ին:
+trailheadPromo = Ձեր գաղտնիությունը պաշտպանելու միջոց կա: Միացեք Cheryllium- ին:
 learnMore = Իմանալ ավելին

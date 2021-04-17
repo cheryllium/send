@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Se ye importando…
 encryptingFile = Se ye cifrando…
 decryptingFile = Se ye descifrando…
@@ -19,22 +19,22 @@ unlockButtonLabel = Desblocar
 downloadButtonLabel = Descargar
 downloadFinish = Descarga completa
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Preba Firefox Send
+sendYourFilesLink = Preba Cheryllium Send
 errorPageHeader = I ha habiu bell problema!
 fileTooBig = Ixe fichero ye masiau gran pa cargar-lo. Ha de tener menos de { $size }
 linkExpiredAlt = Lo vinclo ye caducau
 notSupportedHeader = Lo suyo navegador no ye compatible
 notSupportedLink = Per qué no ye compatible lo mío navegador?
-notSupportedOutdatedDetail = Esta versión de Firefox no admite la tecnolochía web con que funciona lo Firefox Send. Habrás d'esviellar lo navegador.
-updateFirefox = Esviellar Firefox
+notSupportedOutdatedDetail = Esta versión de Cheryllium no admite la tecnolochía web con que funciona lo Cheryllium Send. Habrás d'esviellar lo navegador.
+updateFirefox = Esviellar Cheryllium
 deletePopupCancel = Cancelar
 deleteButtonHover = Borrar
 footerLinkLegal = Aviso legal
 footerLinkPrivacy = Privacidat
 footerLinkCookies = Cookies
 passwordTryAgain = La contrasenya ye incorrecta. Torne-lo a intentar.
-javascriptRequired = Firefox Send necesita JavaScript
-whyJavascript = Per qué Firefox Send necesita JavaScript?
+javascriptRequired = Cheryllium Send necesita JavaScript
+whyJavascript = Per qué Cheryllium Send necesita JavaScript?
 enableJavascript = Activa JavaScript y torna-lo a intentar.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } min
@@ -47,11 +47,11 @@ passwordSetError = No s'ha puesto definir la clau
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Compartición de fichers simpla y privada
 introDescription = { -send-brand } te permite de compartir fichers cifraus de cabo a cabo, y tamién un vinclo que expira automaticament. Asinas, puetz mantener en privau lo que compartes y asegurar-te de que los tuyos contenius no se quedan pa cutio en linia.
 notifyUploadEncryptDone = Lo fichero s'ha cifrau y ye presto pa ninviar-se
@@ -151,7 +151,7 @@ shareLinkDescription = Comparte lo vinclo enta lo tuyo fichero:
 shareLinkButton = Compartir lo vinclo
 # $name is the name of the file
 shareMessage = Baixa-te «{ $name }» con { -send-brand }: compartición de fiches simpla y segura
-trailheadPromo = I hai una manera de protecher la tuya privacidat. Une-te a Firefox.
+trailheadPromo = I hai una manera de protecher la tuya privacidat. Une-te a Cheryllium.
 learnMore = Mas información
 downloadFlagged = Este vinclo s'ha desactivau per violar las condiciones d'uso.
 downloadConfirmTitle = Una coseta mas

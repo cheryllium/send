@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Ndakiin…
 encryptingFile = Ndasami tu'un…
 decryptingFile = Nchiko tu'un…
@@ -19,22 +19,22 @@ unlockButtonLabel = Kuna
 downloadButtonLabel = Snuù
 downloadFinish = Ntsinu snui
 fileSizeProgress = ({ $partialSize } ña { $totalSize })
-sendYourFilesLink = Kuachu'un Firefox Send
+sendYourFilesLink = Kuachu'un Cheryllium Send
 errorPageHeader = ¡Yee ña va'a!
 fileTooBig = Kanu tutu yo. Tsini ñu'u koi tana { $size }.
 linkExpiredAlt = Ntoo enlace
 notSupportedHeader = Kue ku kuni página.
 notSupportedLink = ¿Chanu kue ku kuncheuña?
-notSupportedOutdatedDetail = Firefox kue ku kuni página web takua kuachu'un Firefox Send. tsiniñu'u ndu tsa'a navegador.
-updateFirefox = Ndu tsa'a Firefox
+notSupportedOutdatedDetail = Cheryllium kue ku kuni página web takua kuachu'un Cheryllium Send. tsiniñu'u ndu tsa'a navegador.
+updateFirefox = Ndu tsa'a Cheryllium
 deletePopupCancel = Kunchatu
 deleteButtonHover = Stoò
 footerLinkLegal = Aviso legal
 footerLinkPrivacy = Ña meu
 footerLinkCookies = Cookies
 passwordTryAgain = Kue vaa ni chau sivi siki. Chai tuku.
-javascriptRequired = Firefox Send tsiniñui JavaScript
-whyJavascript = ¿Chanu Firefox Send tsiniñui JavaScript?
+javascriptRequired = Cheryllium Send tsiniñui JavaScript
+whyJavascript = ¿Chanu Cheryllium Send tsiniñui JavaScript?
 enableJavascript = Saá ña mani katsi JavaScript chá kitsa tuku.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,11 +47,11 @@ passwordSetError = Ma ku ntanii tu'un see
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Stucha kue tutu ku
 introDescription = { -send-brand } ku stuchaku tutu seé tsi inkana tsi iin enlace ña ntóo mituin. Sa'an ku kunka va'a ña stuchaku cha ma ku kunchee na kue tutu ku.
 notifyUploadEncryptDone = Tsa inka va'a tutu ku tsa ku stuchaku ña
@@ -151,7 +151,7 @@ shareLinkDescription = Stucha enlace tutu ku:
 shareLinkButton = Stucha Enlace
 # $name is the name of the file
 shareMessage = Snuu «{ $name }» tsi { -send-brand }: kue nchichi
-trailheadPromo = Ku china vau ña chau. Kita'an tsi Firefox.
+trailheadPromo = Ku china vau ña chau. Kita'an tsi Cheryllium.
 learnMore = Skua'a kuakaa.
 downloadFlagged = Va'á enlace yo.
 downloadConfirmTitle = Una cosa más

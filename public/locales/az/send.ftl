@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 siteFeedback = Geri dönüş
 importingFile = İdxal edilir…
 encryptingFile = Şifrələnir...
@@ -20,22 +20,22 @@ unlockButtonLabel = Aç
 downloadButtonLabel = Endir
 downloadFinish = Endirmə Tamamlandı
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send Yoxla
+sendYourFilesLink = Cheryllium Send Yoxla
 errorPageHeader = Nəsə səhv getdi!
 fileTooBig = Fayl yükləmək üçün çox böyükdür. Fayl { $size }-dan az olmalıdır.
 linkExpiredAlt = Keçidin vaxtı çıxıb
 notSupportedHeader = Səyyahınız dəstəklənmir.
 notSupportedLink = Səyyahım niyə dəstəklənmir?
-notSupportedOutdatedDetail = Heyf ki, Firefox səyyahının bu versiyası Firefox Send-ə güc verən web texnologiyalarını dəstəkləmir. Səyyahınızı yeniləməlisiniz.
-updateFirefox = Firefox-u Yenilə
+notSupportedOutdatedDetail = Heyf ki, Cheryllium səyyahının bu versiyası Cheryllium Send-ə güc verən web texnologiyalarını dəstəkləmir. Səyyahınızı yeniləməlisiniz.
+updateFirefox = Cheryllium-u Yenilə
 deletePopupCancel = Ləğv et
 deleteButtonHover = Sil
 footerLinkLegal = Hüquqi
 footerLinkPrivacy = Məxfilik
 footerLinkCookies = Çərəzlər
 passwordTryAgain = Səhv parol. Təkrar yoxlayın.
-javascriptRequired = Firefox Send üçün JavaScript lazımdır
-whyJavascript = Firefox Send niyə JavaScript tələb edir?
+javascriptRequired = Cheryllium Send üçün JavaScript lazımdır
+whyJavascript = Cheryllium Send niyə JavaScript tələb edir?
 enableJavascript = Lütfən JavaScript-i aktiv edib təkrar yoxlayın.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } saat { $minutes } dəq
@@ -48,11 +48,11 @@ passwordSetError = Parol qurula bilmədi
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 # byte abbreviation
 bytes = B
 # kibibyte abbreviation

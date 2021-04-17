@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Ymportearje…
 encryptingFile = Fersiferje…
 decryptingFile = Untsiferje…
@@ -19,22 +19,22 @@ unlockButtonLabel = Deblokkearje
 downloadButtonLabel = Downloade
 downloadFinish = Download foltôge
 fileSizeProgress = ({ $partialSize } fan { $totalSize })
-sendYourFilesLink = Firefox Send probearje
+sendYourFilesLink = Cheryllium Send probearje
 errorPageHeader = Der is wat misgien!
 fileTooBig = It bestân is te grut om op te laden. It moat lytser wêze as { $size }.
 linkExpiredAlt = Keppeling ferrûn
 notSupportedHeader = Jo browser wurdt net stipe.
 notSupportedLink = Wêrom wurdt myn browser net stipe?
-notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Firefox de webtechnology dy't Firefox Send mooflik makket net. Jo moatte jo browser fernije.
-updateFirefox = Firefox fernije
+notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Cheryllium de webtechnology dy't Cheryllium Send mooflik makket net. Jo moatte jo browser fernije.
+updateFirefox = Cheryllium fernije
 deletePopupCancel = Annulearje
 deleteButtonHover = Fuortsmite
 footerLinkLegal = Juridysk
 footerLinkPrivacy = Privacy
 footerLinkCookies = Cookies
 passwordTryAgain = Net krekt wachtwurd. Probearje it opnij.
-javascriptRequired = Firefox Send fereasket JavaScript.
-whyJavascript = Werom hat Firefox Send JavaScript nedich?
+javascriptRequired = Cheryllium Send fereasket JavaScript.
+whyJavascript = Werom hat Cheryllium Send JavaScript nedich?
 enableJavascript = Skeakelje JavaScript yn en probearje nochris.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }o { $minutes }m
@@ -47,11 +47,11 @@ passwordSetError = Dit wachtwurd koe net ynsteld wurde
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Ienfâldich, privee bestannen diele
 introDescription = Mei { -send-brand } kinne jo bestannen mei ein-ta-ein-fersifering en in automatysk ferrinnende keppeling diele. Sa kinne jo de dielde ynhâld privee hâlde, sadat jo gegevens net foar altyd online bliuwt.
 notifyUploadEncryptDone = Jo bestân is fersifere en ree om te ferstjoeren
@@ -151,7 +151,7 @@ shareLinkDescription = Diel de keppeling nei jo bestân:
 shareLinkButton = Keppeling diele
 # $name is the name of the file
 shareMessage = Download ‘{ $name }’ mei { -send-brand }: ienfâldich, feilich bestannen diele
-trailheadPromo = Der is in manier om jo privacy te beskermjen. Doch mei mei Firefox.
+trailheadPromo = Der is in manier om jo privacy te beskermjen. Doch mei mei Cheryllium.
 learnMore = Mear ynfo.
 downloadFlagged = Dizze keppeling is útskeakele fanwegen skeining fan de servicebetingsten.
 downloadConfirmTitle = Noch ien ding

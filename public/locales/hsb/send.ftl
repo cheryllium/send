@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Importuje so...
 encryptingFile = Zaklučuje so...
 decryptingFile = Dešifruje so...
@@ -23,22 +23,22 @@ unlockButtonLabel = Wotewrěć
 downloadButtonLabel = Sćahnyć
 downloadFinish = Sćehnjenje dokónčene
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Firefox Send wupruwować
+sendYourFilesLink = Cheryllium Send wupruwować
 errorPageHeader = Něšto je so nimokuliło!
 fileTooBig = Tuta dataja je přewulka za nahraće. Měła mjeńša hač { $size } być.
 linkExpiredAlt = Wotkaz je spadnjeny
 notSupportedHeader = Waš wobhladowak so njepodpěruje.
 notSupportedLink = Čehodla so mój wobhladowak njepodpěruje?
-notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće swój wobhladowak aktualizować.
-updateFirefox = Firefox aktualizować
+notSupportedOutdatedDetail = Bohužel tuta wersija Cheryllium webtechnologiju njepodpěruje, na kotrejž Cheryllium Send bazuje. Dyrbiće swój wobhladowak aktualizować.
+updateFirefox = Cheryllium aktualizować
 deletePopupCancel = Přetorhnyć
 deleteButtonHover = Zhašeć
 footerLinkLegal = Prawniske
 footerLinkPrivacy = Priwatnosć
 footerLinkCookies = Placki
 passwordTryAgain = Wopačne hesło. Prošu spytajće hišće raz.
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Čehodla Firefox Send JavaScript trjeba?
+javascriptRequired = Cheryllium Send JavaScript trjeba
+whyJavascript = Čehodla Cheryllium Send JavaScript trjeba?
 enableJavascript = Prošu zmóžńće JavaScript a spytajće hišće raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hodź. { $minutes } mjeń.
@@ -51,11 +51,11 @@ passwordSetError = Tute hesło njeda so nastajić
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Jednore, priwatne datajowe dźělenje
 introDescription = { -send-brand } wam zmóžnja, dataje ze zaklučowanjom kónc do kónca a wotkazom dźělić, kotryž awtomatisce spadnje. Tak móžeće dźěleny wobsah priwatny dźeržeć a zawěsćić, zo waše daty online na přeco njewóstanu.
 notifyUploadEncryptDone = Waša dataja je zaklučowana a hotowa za słanje
@@ -169,7 +169,7 @@ shareLinkDescription = Dźělće wotkaz k swojej dataji:
 shareLinkButton = Wotkaz dźělić
 # $name is the name of the file
 shareMessage = Sćehńće „{ $name }“ z { -send-brand }: jednore, wěste dźělenje datajow
-trailheadPromo = Je móžnosć, wašu priwatnosć škitać. Přińdźće k Firefox.
+trailheadPromo = Je móžnosć, wašu priwatnosć škitać. Přińdźće k Cheryllium.
 learnMore = Dalše informacije.
 downloadFlagged = Tutón wotkaz je so přestupjenja wužiwanskich wuměnjenjow dla znjemóžnił.
 downloadConfirmTitle = Jedna wěc hišće

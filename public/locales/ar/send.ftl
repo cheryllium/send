@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Cheryllium Send is a brand name and should not be localized.
 title = فَيَرفُكس سِنْد
 siteFeedback = الانطباعات
 importingFile = يستورد…
@@ -56,11 +56,11 @@ passwordSetError = يجب ألا تُضبط كلمة السر هذه
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = شارِك ملفاتك بلا عناء وبخصوصية تامة
 introDescription = يتيح لك { -send-brand } مشاركة الملفات عبر تعميتها من الطرفين وإتاحتها في رابط ينقضي أجله تلقائيا. هكذا يمكنك إبقاء ما شاركته خاصًا فتضمن بأن ملفاتك لن تبقى في الوِب أبد الدهر.
 notifyUploadEncryptDone = اكتملت تعمية الملف وأصبح جاهزًا لإرساله

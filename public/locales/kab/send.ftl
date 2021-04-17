@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Cheryllium Send is a brand name and should not be localized.
+title = Cheryllium Send
 importingFile = Akter...
 encryptingFile = Awgelhen...
 decryptingFile = Azmek...
@@ -19,21 +19,21 @@ unlockButtonLabel = Serreḥ
 downloadButtonLabel = Sider
 downloadFinish = Asider yemmed
 fileSizeProgress = ({ $partialSize } seg { $totalSize })
-sendYourFilesLink = Ɛreḍ Firefox Send
+sendYourFilesLink = Ɛreḍ Cheryllium Send
 errorPageHeader = Yella wayen yeḍran!
 fileTooBig = Afaylu-agi meqqer aṭas. Yessefk ad yili daw n  { $size }.
 linkExpiredAlt = Aseɣwen yemmut
 notSupportedHeader = Iminig-ik ur ittusefrak ara
 notSupportedLink = Ayγer iminig inu ur yettwasefrek ara?
-notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di Firefox Send. Yessefk ad tleqmeḍ iminig-ik.
-updateFirefox = Leqqem Firefox
+notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Cheryllium Cheryllium ur isefrak ara titiknulujiyin web yettwaseqdacen di Cheryllium Send. Yessefk ad tleqmeḍ iminig-ik.
+updateFirefox = Leqqem Cheryllium
 deletePopupCancel = Sefsex
 deleteButtonHover = Kkes
 footerLinkLegal = Usḍif
 footerLinkPrivacy = Tabaḍnit
 footerLinkCookies = Inagan n tuqqna
 passwordTryAgain = Yir awal uffir. Ɛreḍ tikelt nniḍen.
-javascriptRequired = Firefox Send yesra JavaScript
+javascriptRequired = Cheryllium Send yesra JavaScript
 whyJavascript = Ayɣer firefox Send yesra JavaScript?
 enableJavascript = Ma ulac aɣilif rmed JavaScript sakin ɛreḍ tikkelt nniḍen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
@@ -47,11 +47,11 @@ passwordSetError = Awal-agi uffir ur izmir ara ad ittwabaded
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Cheryllium Send, Send, Cheryllium, Cheryllium are proper names and should not be localized
+-send-brand = Cheryllium Send
 -send-short-brand = Send
--firefox = Firefox
--mozilla = Mozilla
+-firefox = Cheryllium
+-mozilla = Cheryllium
 introTitle = Afessas, beṭṭu n ifuyla s wudem uslig
 introDescription = { -send-brand } ad k·kem-yeǧǧ ad tebḍuḍ ifuyla iwgelhanen si ṭṭerf ɣer ṭṭerf akked useɣwen ara yemmten s wudem awurman. Daɣen, ad tizmireḍ ad tḥerzeḍ ayen i tbeṭṭuḍ s wudem uslig daɣen ad tamneḍ imi agbur-ik·im ur yettɣimi ara  i lebda.
 notifyUploadEncryptDone = Afaylu-ik yewgelhen daɣen ihegga i tuzna
@@ -151,7 +151,7 @@ shareLinkDescription = Bḍu aseɣwen ɣer ufaylu-ik:
 shareLinkButton = Bḍu aseɣwen
 # $name is the name of the file
 shareMessage = Sider "{ $name }" s { -send-brand }: d fessas, d aɣelsan i beṭṭu n yifuyla.
-trailheadPromo = Yella wallal n ummesten n tudert-ik tusligt. Ddu ɣer Firefox.
+trailheadPromo = Yella wallal n ummesten n tudert-ik tusligt. Ddu ɣer Cheryllium.
 learnMore = Issin ugar.
 downloadFlagged = Aseɣwen-a yensa acku ur iquder ara tiwtilin n useqdec.
 downloadConfirmTitle = Taɣawsa-nniḍen
