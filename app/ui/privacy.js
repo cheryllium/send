@@ -12,33 +12,14 @@ module.exports = function(state, emit) {
         <h1 class="text-center text-3xl font-bold">
           ${state.translate('legalTitle')}
         </h1>
-        <p class="mt-2">${state.translate('legalDateStamp')}</p>
+        <p class="mt-2">Version 1.0, dated Apr 17, 2021</p>
         <div class="overflow-y-scroll py-8 px-12">
           <p class="leading-normal">
-            <span>When Mozilla receives information from you, our</span>
-            <a
-              href="https://www.mozilla.org/privacy/"
-              target="__blank"
-              rel="noopener noreferrer"
-              class="link-blue hover:underline"
-              >Mozilla Privacy Policy</a
-            >
-            <span
-              >describes how we handle that information. Below are the top
-              things you should know about Firefox Send. You can also view the
-              code</span
-            >
-            <a
-              href="https://github.com/mozilla/send/blob/master/docs/metrics.md"
-              target="__blank"
-              rel="noopener noreferrer"
-              class="link-blue hover:underline"
-              >here</a
-            >.
+            <span>We do not utilize any information retrieved except as necessary to provide the Service. Key data collected is specified below.</span>
           </p>
           <ul class="mt-6 leading-normal">
             <li class="mb-4">
-              <b>Content</b>: Mozilla receives an encrypted copy of the file you
+              <b>Content</b>: We receive an encrypted copy of the file you
               upload but we cannot access the content or name of your encrypted
               file. By default, files are stored for a maximum of either 24
               hours or 7 days. If you choose a download cap, the file can be
@@ -59,28 +40,12 @@ module.exports = function(state, emit) {
               <ul class="mt-6 leading-normal">
                 <li class="mb-4">
                   <u>IP addresses</u>: We receive IP addresses of downloaders
-                  and uploaders as part of our standard server logs. These are
-                  retained for 90 days, and for that period, may be connected to
-                  activity of a file’s download URL. Although we develop our
-                  services in ways that minimize identification, you should know
-                  that it may be possible to correlate the IP address of a Send
-                  user to the IP address of other Mozilla services with
-                  accounts; and if there is a match, this could identify the
-                  account email address.
-                </li>
-                <li class="mb-4">
-                  <u>Firefox Account</u>: This is required for authentication
-                  only if you wish to upload larger file sizes. Your Firefox
-                  Account record will retain aggregate data on your usage of
-                  Send: for example, if you created a Firefox Account in
-                  connection with Send, number of files sent and approximate
-                  file sizes, and how many times you’ve used the service.
+                  and uploaders as part of our standard server logs.
                 </li>
               </ul>
             </li>
             <li class="mb-4">
-              <b>Non-personal data</b>: We receive the following to improve our
-              service and performance:
+              <b>Non-personal data</b>: We might receive the following data:
               <ul class="mt-6 leading-normal">
                 <li class="mb-4">
                   <u>Interaction data</u>: This includes information such as
@@ -97,9 +62,6 @@ module.exports = function(state, emit) {
                   reasons for file expiration.
                 </li>
               </ul>
-            </li>
-            <li class="mb-4">
-              <b>Third Party Services</b>: We use Google Cloud Platform.
             </li>
           </ul>
         </div>
