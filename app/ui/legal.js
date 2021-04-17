@@ -16,6 +16,11 @@ module.exports = function(state, emit) {
         <div class="overflow-y-scroll py-8 px-12">
           <p class="leading-normal">
             <p>
+              This Service can be used to share encrypted files between users.
+
+              You may upload content to our servers as part of the features of the Service. By uploading content, you hereby grant us a nonexclusive, royalty-free, worldwide license to use your content in connection with the provision of the Service. You hereby represent and warrant that your content will not infringe the rights of any third party and will comply with all applicable laws.
+            </p>
+            <p>
               EXCEPT AS EXPRESSLY PROVIDED IN THIS AGREEMENT, NO PARTY MAKES ANY GUARANTEES OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, WHETHER ARISING BY OPERATION OF LAW OR OTHERWISE. PROVIDER SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF MERCHANTABILITY AND/OR ANY IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE.
             </p>
           </p>
