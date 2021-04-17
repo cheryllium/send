@@ -25,6 +25,35 @@ function expiryInfo(translate, archive) {
   );
 }
 
+function uploadPassword(state) {
+  const MAX_LENGTH = 32;
+
+    /*
+      oninput="${inputChanged}"
+      onblur="${blur}"
+      onfocus="${focused}"
+      placeholder="${state.translate('unlockInputPlaceholder')}"
+      value="${state.archive.password || ''}"
+      */
+
+  return html `
+    <input
+      id="upload-password"
+      class="border rounded focus:border-blue-60 leading-normal my-1 py-1 px-2 h-8 dark:bg-grey-80"
+      type="password"
+      onclick="${e => e.stopPropagation()}"
+      maxlength="${MAX_LENGTH}"
+    />
+    <label
+      for="upload-password"
+      role="password"
+      class="block text-xs text-grey-70"
+      title="Upload password"
+    >
+      Upload Password!
+    </label>`
+}
+
 function password(state) {
   const MAX_LENGTH = 32;
 
@@ -286,6 +315,7 @@ module.exports = function(state, emit, archive) {
 
 module.exports.wip = function(state, emit) {
   return html`
+    ${uploadPassword(state)}
     <send-upload-area
       class="flex flex-col bg-white h-full w-full dark:bg-grey-90"
       id="wip"
@@ -398,6 +428,7 @@ module.exports.uploading = function(state, emit) {
   const progressPercent = percent(progress);
   const archive = state.archive;
   return html`
+    ${uploadPassword(state)}
     <send-upload-area
       id="${archive.id}"
       class="flex flex-col items-start rounded shadow-light bg-white p-4 w-full dark:bg-grey-90"
@@ -449,6 +480,7 @@ module.exports.empty = function(state, emit) {
           </button>
         `;
   return html`
+    ${uploadPassword(state)}
     <send-upload-area
       class="flex flex-col items-center justify-center border-2 border-dashed border-grey-transparent rounded px-6 py-16 h-full w-full dark:border-grey-60"
       onclick="${e => {
