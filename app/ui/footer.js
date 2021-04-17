@@ -32,7 +32,7 @@ class Footer extends Component {
             <a href="/privacy"> ${translate('footerLinkPrivacy')} </a>
           </li>
           <li class="m-2">
-            <a href="https://github.com/mozilla/send">GitHub </a>
+            <a href="https://github.com/cheryllium/send">GitHub </a>
           </li>
         </ul>
       </footer>
