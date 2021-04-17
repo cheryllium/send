@@ -24,12 +24,12 @@ class Footer extends Component {
           class="flex flex-col md:flex-row items-start md:items-center md:justify-end"
         >
           <li class="m-2">
-            <a href="https://www.mozilla.org/about/legal/terms/services/#send">
+            <a href="/legal">
               ${translate('footerLinkLegal')}
             </a>
           </li>
           <li class="m-2">
-            <a href="/legal"> ${translate('footerLinkPrivacy')} </a>
+            <a href="/privacy"> ${translate('footerLinkPrivacy')} </a>
           </li>
           <li class="m-2">
             <a href="https://www.mozilla.org/privacy/websites/#cookies">

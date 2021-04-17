@@ -115,6 +115,7 @@ module.exports = function(app) {
   app.get('/error', language, pages.blank);
   app.get('/oauth', language, pages.blank);
   app.get('/legal', language, pages.legal);
+  app.get('/privacy', language, pages.privacy);
   app.get('/login', language, pages.index);
   app.get('/report', language, pages.blank);
   app.get('/app.webmanifest', language, require('./webmanifest'));

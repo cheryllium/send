@@ -7,7 +7,7 @@ module.exports = function(app = choo({ hash: true })) {
   app.route('/download/:id', body(download));
   app.route('/download/:id/:key', body(download));
   app.route('/unsupported/:reason', body(require('./ui/unsupported')));
-  app.route('/legal', body(require('./ui/legal')));
+  app.route('/privacy', body(require('./ui/privacy')));
   app.route('/error', body(require('./ui/error')));
   app.route('/blank', body(require('./ui/blank')));
   app.route('/oauth', function(state, emit) {

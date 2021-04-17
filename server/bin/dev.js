@@ -33,6 +33,7 @@ module.exports = function(app, devServer) {
     // map all html routes to the android index.html
     app.get('/', android);
     app.get('/legal', android);
+    app.get('/privacy', android);
     app.get(`/share/:id${ID_REGEX}`, android);
     app.get('/completed', android);
     app.get('/preferences', android);
