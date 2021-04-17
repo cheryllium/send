@@ -32,11 +32,6 @@ class Footer extends Component {
             <a href="/privacy"> ${translate('footerLinkPrivacy')} </a>
           </li>
           <li class="m-2">
-            <a href="https://www.mozilla.org/privacy/websites/#cookies">
-              ${translate('footerLinkCookies')}
-            </a>
-          </li>
-          <li class="m-2">
             <a href="https://github.com/mozilla/send">GitHub </a>
           </li>
         </ul>
