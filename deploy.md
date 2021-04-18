@@ -34,6 +34,7 @@ docker run -d --env-file=.docker.env --net prod-net -p 80:1443 --name cheryllium
 ### 1. Stop the application
 ```
 docker stop cheryllium-send
+docker rm cheryllium-send
 ```
 
 ### 2. Grab the prod image
