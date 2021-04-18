@@ -26,7 +26,7 @@ docker run -d --net prod-net --name redis redis
 
 ### 5. Run the application
 ```
-docker run -d --env-file=.docker.env --net prod-net -p 1443:80 --name cheryllium-send cheryllium-send
+docker run -d --env-file=.docker.env --net prod-net -p 80:1443 --name cheryllium-send cheryllium-send
 ```
 
 ## Updates
