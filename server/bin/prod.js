@@ -45,5 +45,6 @@ try {
     ).listen(config.listen_port, config.listen_address)
 } catch (error) {
     // Guess we don't have HTTPS
-    app.listen(config.listen_port, config.listen_address)
 }
+
+app.listen(config.listen_port, config.listen_address)
