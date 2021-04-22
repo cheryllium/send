@@ -40,11 +40,16 @@ try {
     
     app.use(helmet())
     
+    console.log("Starting HTTPS server on port " + config.listen_port_https)
+
     https.createServer(
         options, app
     ).listen(config.listen_port_https, config.listen_address)
 } catch (error) {
     // Guess we don't have HTTPS
+    console.log("HTTPS disabled: " + error);
 }
+
+console.log("Starting HTTP server on port " + config.listen_port)
 
 app.listen(config.listen_port, config.listen_address)
