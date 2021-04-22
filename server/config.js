@@ -94,9 +94,15 @@ const conf = convict({
     default: '0.0.0.0',
     env: 'IP_ADDRESS'
   },
+  listen_port_https: {
+    format: 'port_https',
+    default: 1443,
+    arg: 'port_https',
+    env: 'PORT_HTTPS'
+  },
   listen_port: {
     format: 'port',
-    default: 1443,
+    default: 1080,
     arg: 'port',
     env: 'PORT'
   },

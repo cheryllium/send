@@ -42,7 +42,7 @@ try {
     
     https.createServer(
         options, app
-    ).listen(config.listen_port, config.listen_address)
+    ).listen(config.listen_port_https, config.listen_address)
 } catch (error) {
     // Guess we don't have HTTPS
 }
