@@ -39,6 +39,9 @@ try {
     }
     
     app.use(helmet())
+    app.use((req, res, next) => {
+        req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
+    })
     
     console.log("Starting HTTPS server on port " + config.listen_port_https)
 
