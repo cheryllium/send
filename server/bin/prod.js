@@ -33,13 +33,15 @@ app.use(
 app.use(pages.notfound);
 
 try {
+    let options = {
+        key: fs.readFileSync(config.ssl_key, 'utf8'),
+        cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
+    }
+    
     app.use(helmet())
     
     https.createServer(
-        {
-            key: fs.readFileSync(config.ssl_key, 'utf8'),
-            cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
-        }, app
+        options, app
     ).listen(config.listen_port, config.listen_address)
 } catch (error) {
     // Guess we don't have HTTPS
