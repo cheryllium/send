@@ -32,6 +32,13 @@ app.use(
 
 app.use(pages.notfound);
 
+// ACME challenge
+app.use(
+    express.static(
+        path.resolve(__dirname, '../../static/')
+    )
+)
+
 try {
     let options = {
         key: fs.readFileSync(config.ssl_key, 'utf8'),
