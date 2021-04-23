@@ -204,7 +204,17 @@ const conf = convict({
     format: String,
     default: '',
     env: 'IP_DB'
-  }
+  },
+  ssl_key: {
+    format: String,
+    default: '',
+    env: 'SSL_KEY'
+  },
+  ssl_certificate: {
+    format: String,
+    default: '',
+    env: 'SSL_CERTIFICATE'
+  },
 });
 
 // Perform validation

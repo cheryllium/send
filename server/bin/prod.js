@@ -1,4 +1,6 @@
 const express = require('express');
+const https = require('https');
+const fs = require('fs');
 const path = require('path');
 const Sentry = require('@sentry/node');
 const config = require('../config');
@@ -29,4 +31,11 @@ app.use(
 
 app.use(pages.notfound);
 
-app.listen(config.listen_port, config.listen_address);
+https.createServer({
+        key: fs.readFileSync(config.ssl_key, 'utf8'),
+        cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
+    }, app
+).listen(config.listen_port, config.listen_address)
+
+// Insecure (non-HTTPS) server:
+// app.listen(config.listen_port, config.listen_address)
