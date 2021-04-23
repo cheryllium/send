@@ -1,6 +1,7 @@
 const express = require('express');
 const https = require('https');
 const fs = require('fs');
+const helmet = require('helmet');
 const path = require('path');
 const Sentry = require('@sentry/node');
 const config = require('../config');
@@ -32,6 +33,8 @@ app.use(
 app.use(pages.notfound);
 
 try {
+    app.use(helmet())
+    
     https.createServer(
         {
             key: fs.readFileSync(config.ssl_key, 'utf8'),
