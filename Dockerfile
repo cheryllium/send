@@ -52,8 +52,10 @@ RUN npm ci --production && npm cache clean --force
 RUN mkdir -p /app/.config/configstore
 RUN ln -s dist/version.json version.json
 
-ENV PORT=1443
+ENV PORT=1080
+ENV PORT_HTTPS=1443
 
 EXPOSE ${PORT}
+EXPOSE ${PORT_HTTPS}
 
 CMD ["node", "server/bin/prod.js"]

@@ -96,9 +96,15 @@ const conf = convict({
   },
   listen_port: {
     format: 'port',
-    default: 1443,
+    default: 1080,
     arg: 'port',
     env: 'PORT'
+  },
+  listen_port_https: {
+    format: 'port',
+    default: 1443,
+    arg: 'port_https',
+    env: 'PORT_HTTPS'
   },
   amplitude_id: {
     format: String,
@@ -204,7 +210,17 @@ const conf = convict({
     format: String,
     default: '',
     env: 'IP_DB'
-  }
+  },
+  ssl_key: {
+    format: String,
+    default: '',
+    env: 'SSL_KEY'
+  },
+  ssl_certificate: {
+    format: String,
+    default: '',
+    env: 'SSL_CERTIFICATE'
+  },
 });
 
 // Perform validation

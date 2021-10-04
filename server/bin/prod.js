@@ -1,4 +1,7 @@
 const express = require('express');
+const https = require('https');
+const fs = require('fs');
+const helmet = require('helmet');
 const path = require('path');
 const Sentry = require('@sentry/node');
 const config = require('../config');
@@ -29,4 +32,27 @@ app.use(
 
 app.use(pages.notfound);
 
-app.listen(config.listen_port, config.listen_address);
+try {
+    let options = {
+        key: fs.readFileSync(config.ssl_key, 'utf8'),
+        cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
+    }
+    
+    app.use(helmet())
+    app.use((req, res, next) => {
+        req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
+    })
+    
+    console.log("Starting HTTPS server on port " + config.listen_port_https)
+
+    https.createServer(
+        options, app
+    ).listen(config.listen_port_https, config.listen_address)
+} catch (error) {
+    // Guess we don't have HTTPS
+    console.log("HTTPS disabled: " + error);
+}
+
+console.log("Starting HTTP server on port " + config.listen_port)
+
+app.listen(config.listen_port, config.listen_address)
