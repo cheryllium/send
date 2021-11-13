@@ -15,7 +15,7 @@ if (config.sentry_dsn) {
 
 const app = express();
 
-let httpsServer = null;
+let httpsServer;
 
 try {
     let options = {
@@ -33,7 +33,7 @@ try {
 
 expressWs(app, null, { perMessageDeflate: false });
 
-if (httpsServer !== null) {
+if (httpsServer) {
     var expressWss = expressWs(app, httpsServer, { perMessageDeflate: false });
 }
 
@@ -51,7 +51,7 @@ app.use(
   })
 );
 
-if (httpsServer !== null) {
+if (httpsServer) {
     app.use(helmet())
     app.use((req, res, next) => {
         req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
@@ -60,7 +60,7 @@ if (httpsServer !== null) {
 
 app.use(pages.notfound);
 
-if (httpsServer !== null) {
+if (httpsServer) {
     console.log("Starting HTTPS server on port " + config.listen_port_https)
     httpsServer.listen(config.listen_port_https, config.listen_address);
 }
