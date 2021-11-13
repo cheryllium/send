@@ -15,13 +15,13 @@ if (config.sentry_dsn) {
 
 const app = express();
 
-let httpsServer;
+let httpsServer, expressWss;
 
 try {
     let options = {
         key: fs.readFileSync(config.ssl_key, 'utf8'),
         cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
-    }
+    };
 
     httpsServer = https.createServer(
         options, app
@@ -34,7 +34,7 @@ try {
 expressWs(app, null, { perMessageDeflate: false });
 
 if (httpsServer) {
-    var expressWss = expressWs(app, httpsServer, { perMessageDeflate: false });
+    expressWss = expressWs(app, httpsServer, { perMessageDeflate: false });
 }
 
 routes(app);
