@@ -26,7 +26,7 @@ docker run -d --net prod-net --name redis redis
 
 ### 5. Run the application
 ```
-docker run -d --env-file=.docker.env --net prod-net -p 80:1443 --name cheryllium-send cheryllium-send
+docker run -d --env-file=.docker.env --net prod-net -p 80:1080 -p 443:1443 -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" -v ~/.env:/var/www/lyrics/.env --name cheryllium-send cheryllium-send
 ```
 
 ## Updates
@@ -46,5 +46,5 @@ docker tag registry.gitlab.com/cheryllium/docker-images/cheryllium-send-prod che
 
 ### 3. Start the application
 ```
-docker run -d --env-file=.docker.env --net prod-net -p 1443:80 --name cheryllium-send cheryllium-send
+docker run -d --env-file=.docker.env --net prod-net -p 80:1080 -p 443:1443 -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" -v ~/.env:/var/www/lyrics/.env --name cheryllium-send cheryllium-send
 ```
