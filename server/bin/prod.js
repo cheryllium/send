@@ -15,7 +15,28 @@ if (config.sentry_dsn) {
 
 const app = express();
 
+let httpsServer, expressWss;
+
+try {
+    let options = {
+        key: fs.readFileSync(config.ssl_key, 'utf8'),
+        cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
+    };
+
+    httpsServer = https.createServer(
+        options, app
+    );
+} catch (error) {
+    // Guess we don't have HTTPS
+    console.log("HTTPS disabled: " + error);
+}
+
 expressWs(app, null, { perMessageDeflate: false });
+
+if (httpsServer) {
+    expressWss = expressWs(app, httpsServer, { perMessageDeflate: false });
+}
+
 routes(app);
 app.ws('/api/ws', require('../routes/ws'));
 
@@ -30,27 +51,18 @@ app.use(
   })
 );
 
-app.use(pages.notfound);
-
-try {
-    let options = {
-        key: fs.readFileSync(config.ssl_key, 'utf8'),
-        cert: fs.readFileSync(config.ssl_certificate, 'utf8'),
-    }
-    
+if (httpsServer) {
     app.use(helmet())
     app.use((req, res, next) => {
         req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
     })
-    
-    console.log("Starting HTTPS server on port " + config.listen_port_https)
+}
 
-    https.createServer(
-        options, app
-    ).listen(config.listen_port_https, config.listen_address)
-} catch (error) {
-    // Guess we don't have HTTPS
-    console.log("HTTPS disabled: " + error);
+app.use(pages.notfound);
+
+if (httpsServer) {
+    console.log("Starting HTTPS server on port " + config.listen_port_https)
+    httpsServer.listen(config.listen_port_https, config.listen_address);
 }
 
 console.log("Starting HTTP server on port " + config.listen_port)
