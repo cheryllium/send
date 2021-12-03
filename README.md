@@ -20,15 +20,6 @@ docker run -it --env-file .docker.env.dev -v $PWD:/app -p 4001:4001 firefox-send
 
 Optionally add `-d` flag to run in the background.
 
-### Ryan's way
-
-Run:
-```
-./run-dev.sh
-```
-
-This script only works for Ryan.
-
 ## Deployment
 
 To build a docker image for deployment, do this: 
